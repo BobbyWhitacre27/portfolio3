@@ -31,7 +31,7 @@ const App = () => {
               <h2 class="text-3xl font-bold sm:text-8xl">Welcome to my Portfolio</h2>
 
               <p class="mt-4 text-gray-600 sm:text-xl">
-                My name is Bobby Whitacre and I am a Full-Stack Web Developer in the Washington D.C. Area.
+                Hello! I'm Bobby Whitacre, a Full-Stack Web Developer in the Washington D.C. Area.
               </p>
 
 
