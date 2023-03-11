@@ -64,7 +64,7 @@ const App = () => {
             >
 
 
-              <h2><a class="mt-4 text-xl font-bold text-white">RideStack - Link Under Construction</a></h2>
+              <h2><a class="https://remarkable-crumble-2115b5.netlify.app/">RideStack</a></h2>
               <a href="https://github.com/rideStack/RideStack" target="_blank" class="mt-1 text-sm text-gray-300 underline">GitHub Link</a>
 
               <p class="mt-1 text-sm text-gray-300">
