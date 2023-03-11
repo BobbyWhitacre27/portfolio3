@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.app-container h1 {
+  color: var(--green);
+  padding: 1rem;
+}
+
+#photo {
+margin-top: 5%;
+width: 60%;  
+border-radius: 50%;
+margin-bottom: 5%;
+}
+
+#photoDiv {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+}
+
+.schoolLogos {
+  height: 45px;
+}
+
+.logoDiv{
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  margin-bottom: 2%;
+}
+
