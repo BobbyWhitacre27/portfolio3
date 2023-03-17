@@ -31,7 +31,7 @@ const App = () => {
               <h2 class="text-3xl font-bold sm:text-8xl">Welcome to my Portfolio</h2>
 
               <p class="mt-4 text-gray-600 sm:text-xl">
-                Hello! I'm Bobby Whitacre, a Full-Stack Web Developer in the Washington D.C. area.
+              Hello! I'm Bobby Whitacre, a Full-Stack Web Developer in the Washington D.C. area.
               </p>
 
 
@@ -176,7 +176,6 @@ const App = () => {
 
       <footer aria-label="Site Footer" class="bg-gray-100">
         <div class="mx-auto max-w-5xl px-4 py-8 sm:px-6 lg:px-8">
-          <div class="flex justify-center text-l font-extrabold">Reach out!</div>
           <ul class="mt-6  flex justify-center align-center gap-6 md:gap-8">
             <li>
               <a
