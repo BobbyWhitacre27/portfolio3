@@ -31,7 +31,7 @@ const App = () => {
               <h2 class="text-3xl font-bold sm:text-8xl">Welcome to my Portfolio</h2>
 
               <p class="mt-4 text-gray-600 sm:text-xl">
-              Hello! I'm Bobby Whitacre, a Full-Stack Web Developer in the Washington D.C. area.
+              Hello! I'm Bobby Whitacre, a Full-Stack Developer in the Washington D.C. area.
               </p>
 
 
@@ -83,9 +83,11 @@ const App = () => {
 
 
               <p class="mt-1 text-sm text-gray-300">
-                Fitness Tracker is a fitness website where users can create accounts and make there own workout routines to share with others.
+                Fitness Tracker is a fitness website where users can create accounts and create there own workout routines to share with others.
               </p>
             </div>
+
+            
 
             <div
               class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-stone-50 hover:shadow-stone-50"
@@ -101,6 +103,7 @@ const App = () => {
               </p>
             </div>
 
+
             <div
               class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-stone-50 hover:shadow-stone-50"
               href="/services/digital-campaigns"
@@ -108,11 +111,28 @@ const App = () => {
 
 
 
-              <h2><a href="https://bobbywhitacre27.github.io/cv/" target='_blank' class="mt-4 text-xl font-bold text-white underline">My Very First Site</a></h2>
+              <h2><a href="https://bobbywhitacre27.github.io/TicTacToe_finalsubmission/" target='_blank' class="mt-4 text-xl font-bold text-white underline">Tic Tac Toe</a></h2>
+              <a href="https://github.com/BobbyWhitacre27/TicTacToe_finalsubmission" target="_blank" class="mt-1 text-sm text-gray-300 underline">GitHub Link</a>
+
+              <p class="mt-1 text-sm text-gray-300">
+                This tic tac toe game allows two players to enter their names and play against one another. 
+              </p>
+            </div>
+
+
+
+            <div
+              class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-stone-50 hover:shadow-stone-50"
+              href="/services/digital-campaigns"
+            >
+
+
+
+              <h2><a href="https://bobbywhitacre27.github.io/cv/" target='_blank' class="mt-4 text-xl font-bold text-white underline">My Very First Site... Ever!</a></h2>
               <a href="https://github.com/BobbyWhitacre27/cv" target="_blank" class="mt-1 text-sm text-gray-300 underline">GitHub Link</a>
 
               <p class="mt-1 text-sm text-gray-300">
-                Est. July 2021 this was my very first website attempt. While not pretty, it shows how far I've come!
+                Est. August 2021 this was my very first website attempt. While not pretty, it shows how far I've come!
               </p>
             </div>
 
