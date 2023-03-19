@@ -132,7 +132,7 @@ const App = () => {
               <a href="https://github.com/BobbyWhitacre27/cv" target="_blank" class="mt-1 text-sm text-gray-300 underline">GitHub Link</a>
 
               <p class="mt-1 text-sm text-gray-300">
-                Est. August 2021 this was my very first website attempt. While not pretty, it shows how far I've come!
+                Est. August 2022 this was my very first website attempt. While not pretty, it shows how far I've come!
               </p>
             </div>
 
