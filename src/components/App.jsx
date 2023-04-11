@@ -36,7 +36,7 @@ const App = () => {
 
 
               <h2 class="text-3xl font-bold py-8 sm:text-4xl">Skills</h2>
-              <h2 class="text-3xl font-bold sm:text-xl">JavaScript, React, Express, SQL, HTML, CSS, Tailwind CSS, Node & GitHub</h2>
+              <h2 class="text-3xl font-bold sm:text-xl">JavaScript, React, Express, SQL, HTML, CSS, Tailwind CSS, Node.js, GitHub, Netlify & Render</h2>
 
 
 
