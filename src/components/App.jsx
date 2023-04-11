@@ -72,6 +72,21 @@ const App = () => {
               </p>
             </div>
 
+
+            <div
+              class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-stone-50 hover:shadow-stone-50"
+            >
+
+
+              <h2><a href="https://prorationcalculator.netlify.app/" target='_blank' class="mt-4 text-xl font-bold text-white underline">Rent Proration Calculator</a></h2>
+              <a href="https://github.com/BobbyWhitacre27/proration_calculator" target="_blank" class="mt-1 text-sm text-gray-300 underline">GitHub Link</a>
+
+              <p class="mt-1 text-sm text-gray-300">
+                My current role is in Property Management and many times through out the day I use a proration calculator. I decided to make my own in a format I found easiest to use.
+              </p>
+            </div>
+
+
             <div
               class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-stone-50 hover:shadow-stone-50"
               href="/services/digital-campaigns"
