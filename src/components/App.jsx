@@ -31,7 +31,7 @@ const App = () => {
               <h2 class="text-3xl font-bold sm:text-8xl">Welcome to my Portfolio</h2>
 
               <p class="mt-4 text-gray-600 sm:text-xl">
-              Hello! I'm Bobby Whitacre, a Full-Stack Developer in the Washington D.C. area.
+                Hello! I'm Bobby Whitacre, a Full-Stack Developer in the Washington D.C. area.
               </p>
 
 
@@ -64,12 +64,13 @@ const App = () => {
             >
 
 
-              <h2><a href="https://ride-stack.netlify.app/" target='_blank' class="mt-4 text-xl font-bold text-white underline">RideStack</a></h2>
-              <a href="https://github.com/rideStack/RideStack" target="_blank" class="mt-1 text-sm text-gray-300 underline">GitHub Link</a>
+              <h2><a href="https://ride-stack.netlify.app/" target='_blank' class="flex justify-center text-xl font-bold text-white underline">RideStack</a></h2>
+              <a href="https://github.com/rideStack/RideStack" target="_blank" class="flex justify-center mt-1 text-sm text-gray-300 underline">GitHub Link</a>
 
-              <p class="mt-1 text-sm text-gray-300">
+              <p class="mt-1 text-sm text-gray-300 text-center">
                 RideStack is a luxury all-electric vehicle sales website. Users can create accounts and select electric vehicles to purchase.
               </p>
+              <img class="m-auto mt-4 h-40 rounded" src='https://i.ibb.co/526Zbjs/Screenshot-2023-04-14-at-11-59-33-PM-2.png'></img>
             </div>
 
 
@@ -78,12 +79,30 @@ const App = () => {
             >
 
 
-              <h2><a href="https://prorationcalculator.netlify.app/" target='_blank' class="mt-4 text-xl font-bold text-white underline">Rent Proration Calculator</a></h2>
-              <a href="https://github.com/BobbyWhitacre27/proration_calculator" target="_blank" class="mt-1 text-sm text-gray-300 underline">GitHub Link</a>
+              <h2><a href="https://rent-specials-calculator.netlify.app/" target='_blank' class="flex justify-center text-xl font-bold text-white underline">Rent Specials Calculator</a></h2>
+              <a href="https://github.com/BobbyWhitacre27/rent_specials_calculator" target="_blank" class="flex justify-center mt-1 text-sm text-gray-300 underline">GitHub Link</a>
 
-              <p class="mt-1 text-sm text-gray-300">
-                My current role is in Property Management and many times through out the day I use a proration calculator. I decided to make my own in a format I found easiest to use.
+              <p class="mt-1 text-sm text-gray-300 text-center">
+                This app was created to assist in my current property management role and quickly calculates rent specials for when I meet with clients.
               </p>
+              <img class="m-auto mt-4 h-40 rounded" src='https://i.ibb.co/zrFRq23/Screenshot-2023-04-14-at-11-35-37-PM-2.png'></img>
+            </div>
+
+
+
+            <div
+              class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-stone-50 hover:shadow-stone-50"
+            >
+
+
+              <h2><a href="https://prorationcalculator.netlify.app/" target='_blank' class="flex justify-center text-xl font-bold text-white underline">Rent Proration Calculator</a></h2>
+              <a href="https://github.com/BobbyWhitacre27/proration_calculator" target="_blank" class="flex justify-center mt-1 text-sm text-gray-300 underline">GitHub Link</a>
+
+              <p class="mt-1 text-sm text-gray-300 text-center">
+                This app assists in my current property management role to calculate prorated costs for when I put together lease paperwork.
+              </p>
+              <img class="m-auto mt-4 h-40 rounded" src='https://i.ibb.co/THrt68v/Screenshot-2023-04-15-at-12-18-36-AM-2.png'></img>
+
             </div>
 
 
@@ -93,16 +112,17 @@ const App = () => {
             >
 
 
-              <h2><a href="https://calm-taiyaki-b6ef03.netlify.app/" target='_blank' class="mt-4 text-xl font-bold text-white underline">Fitness Tracker</a></h2>
-              <a href="https://github.com/BobbyWhitacre27/UNIV_FitnessTrackr_Starter" target="_blank" class="mt-1 text-sm text-gray-300 underline">GitHub Link</a>
+              <h2><a href="https://calm-taiyaki-b6ef03.netlify.app/" target='_blank' class="flex justify-center text-xl font-bold text-white underline">Fitness Tracker</a></h2>
+              <a href="https://github.com/BobbyWhitacre27/UNIV_FitnessTrackr_Starter" target="_blank" class="flex justify-center mt-1 text-sm text-gray-300 underline">GitHub Link</a>
 
 
-              <p class="mt-1 text-sm text-gray-300">
+              <p class="mt-1 text-sm text-gray-300 text-center">
                 Fitness Tracker is a fitness website where users can create accounts and create there own workout routines to share with others.
               </p>
+              <img class="m-auto mt-4 h-40 rounded" src='https://i.ibb.co/hyXM17N/Screenshot-2023-04-15-at-12-21-40-AM-2.png'></img>
             </div>
 
-            
+
 
             <div
               class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-stone-50 hover:shadow-stone-50"
@@ -110,12 +130,13 @@ const App = () => {
             >
 
 
-              <h2><a href="https://stellar-klepon-e9797a.netlify.app" target='_blank' class="mt-4 text-xl font-bold text-white underline">Stranger's Things</a></h2>
-              <a href="https://github.com/BobbyWhitacre27/Strangers_Things" target="_blank" class="mt-1 text-sm text-gray-300 underline">GitHub Link</a>
+              <h2><a href="https://stellar-klepon-e9797a.netlify.app" target='_blank' class="flex justify-center text-xl font-bold text-white underline">Stranger's Things</a></h2>
+              <a href="https://github.com/BobbyWhitacre27/Strangers_Things" target="_blank" class="flex justify-center mt-1 text-sm text-gray-300 underline">GitHub Link</a>
 
-              <p class="mt-1 text-sm text-gray-300">
+              <p class="mt-1 text-sm text-gray-300 text-center">
                 Strangers Things is a marketplace like website similar to craigslist where users can post items for sale and message other users.
               </p>
+              <img class="m-auto mt-4 h-40 rounded" src='https://i.ibb.co/MG4Zr4M/Screenshot-2023-04-15-at-12-24-38-AM-2.png'></img>
             </div>
 
 
@@ -126,12 +147,13 @@ const App = () => {
 
 
 
-              <h2><a href="https://bobbywhitacre27.github.io/TicTacToe_finalsubmission/" target='_blank' class="mt-4 text-xl font-bold text-white underline">Tic Tac Toe</a></h2>
-              <a href="https://github.com/BobbyWhitacre27/TicTacToe_finalsubmission" target="_blank" class="mt-1 text-sm text-gray-300 underline">GitHub Link</a>
+              <h2><a href="https://bobbywhitacre27.github.io/TicTacToe_finalsubmission/" target='_blank' class="flex justify-center text-xl font-bold text-white underline">Tic Tac Toe</a></h2>
+              <a href="https://github.com/BobbyWhitacre27/TicTacToe_finalsubmission" target="_blank" class="flex justify-center mt-1 text-sm text-gray-300 underline">GitHub Link</a>
 
-              <p class="mt-1 text-sm text-gray-300">
-                This tic tac toe game allows two players to enter their names and play against one another. 
+              <p class="mt-1 text-sm text-gray-300 text-center">
+                This tic tac toe game allows two players to enter their names and play against one another.
               </p>
+              <img class="m-auto mt-4 h-40 rounded" src='https://i.ibb.co/9n11jBj/Screenshot-2023-04-15-at-12-27-04-AM-2.png'></img>
             </div>
 
 
@@ -143,12 +165,13 @@ const App = () => {
 
 
 
-              <h2><a href="https://bobbywhitacre27.github.io/cv/" target='_blank' class="mt-4 text-xl font-bold text-white underline">My Very First Site... Ever!</a></h2>
-              <a href="https://github.com/BobbyWhitacre27/cv" target="_blank" class="mt-1 text-sm text-gray-300 underline">GitHub Link</a>
+              <h2><a href="https://bobbywhitacre27.github.io/cv/" target='_blank' class="flex justify-center text-xl font-bold text-white underline">My Very First Site... Ever!</a></h2>
+              <a href="https://github.com/BobbyWhitacre27/cv" target="_blank" class="flex justify-center mt-1 text-sm text-gray-300 underline">GitHub Link</a>
 
-              <p class="mt-1 text-sm text-gray-300">
+              <p class="mt-1 text-sm text-gray-300 text-center">
                 Est. August 2022 this was my very first website attempt. While not pretty, it shows how far I've come!
               </p>
+              <img class="m-auto mt-4 h-40 rounded" src='https://i.ibb.co/VJLtspT/Screenshot-2023-04-15-at-12-30-06-AM-2.png'></img>
             </div>
 
 
@@ -161,7 +184,7 @@ const App = () => {
 
       <section class="bg-white">
         <div class="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 md:py-6 lg:px-8">
-   
+
 
           <div class="mt-8 sm:mt-12">
 
@@ -249,7 +272,7 @@ const App = () => {
               >
 
                 <img class="h-12 w-12" src='https://cdn-icons-png.flaticon.com/128/3291/3291695.png' ></img>
-                
+
               </a>
             </li>
 
