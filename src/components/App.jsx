@@ -232,6 +232,63 @@ const App = () => {
         </div>
       </section>
 
+
+      <section>
+  <div class="max-w-screen-xl px-4 py-8 mx-auto sm:py-12 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:items-stretch">
+      <div class="grid p-6 bg-gray-700 rounded place-content-center sm:p-8">
+        <div class="max-w-md mx-auto text-center lg:text-left">
+          <header>
+            <h2 class="text-xl font-bold text-white sm:text-5xl">About me</h2>
+
+            <p class="mt-4 text-white">
+              Over 5 years of professional experience in the real estate and construction management industries.
+            </p>
+            <p class="mt-4 text-white">
+              Began learning to code in 2022. Have always had a nack for building things and now love creating my own apps.
+            </p>
+            <p class="mt-4 text-white">
+              Outside of work you will likely find me either working out, at my boxing gym, watching Netlix's latest reality show, eating sushi or traveling the world!
+            </p>
+          </header>
+        </div>
+      </div>
+
+      <div class="lg:col-span-2 lg:py-8">
+        <ul class="grid grid-cols-2 gap-4">
+          <li>
+            <a href="#" class="block group">
+              <img
+                src="https://i.ibb.co/nMRfmK1/IMG-7139.jpg"
+                alt=""
+                class="object-cover w-full rounded aspect-square"
+              />
+
+       
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="block group">
+              <img
+                src="https://i.ibb.co/Rhq7Rzj/IMG-1672.jpg"
+                alt=""
+                class="object-cover w-full rounded aspect-square"
+              />
+
+
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
       <footer aria-label="Site Footer" class="bg-gray-100">
         <div class="mx-auto max-w-5xl px-4 py-8 sm:px-6 lg:px-8">
           <ul class="mt-6  flex justify-center align-center gap-6 md:gap-8">
