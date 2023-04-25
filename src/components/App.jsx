@@ -12,6 +12,26 @@ const App = () => {
   return (
     <div>
 
+
+<nav
+  aria-label="Site Nav"
+  class=" flex text-sm md:text-2xl items-center justify-center p-4 bg-gray-300"
+>
+
+  <ul class="flex items-center gap-2 font-bold text-black">
+    <li class="">
+      <a class="rounded-lg px-3 py-2" href="#projects"> Projects </a>
+    </li>
+
+    <li><a class="rounded-lg px-3 py-2" href="#education"> Education </a></li>
+
+    <li><a class="rounded-lg px-3 py-2" href="#about"> About </a></li>  
+
+    {/* <li><a class="rounded-lg px-3 py-2" href="#about"> Contact </a></li>   */}
+  </ul>
+</nav>
+
+
       <section>
         <div
           class="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8"
@@ -35,6 +55,7 @@ const App = () => {
               </p>
 
 
+
               <h2 class="text-3xl font-bold py-8 sm:text-4xl">Skills</h2>
               <h2 class="text-3xl font-bold sm:text-xl">JavaScript, React, Express, PostgreSQL, SQL, HTML, CSS, Tailwind CSS, Node.js, GitHub, Netlify & Render</h2>
 
@@ -50,7 +71,7 @@ const App = () => {
       </section>
 
 
-      <section class="bg-gray-700 text-white">
+      <section id="projects" class="bg-gray-700 text-white">
         <div
           class="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8"
         >
@@ -59,6 +80,25 @@ const App = () => {
           </div>
 
           <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-2">
+
+            <div
+              class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-stone-50 hover:shadow-stone-50"
+            >
+
+
+              <h2><a href="https://leasinglad.netlify.app/" target='_blank' class="flex justify-center text-xl font-bold text-white underline">Leasing Lad.</a></h2>
+              <a href="https://github.com/BobbyWhitacre27/leasing_lad" target="_blank" class="flex justify-center mt-1 text-sm text-gray-300 underline">GitHub Link</a>
+
+              <p class="mt-1 text-sm text-gray-300 text-center">
+                Leasing Lad is a property management software tool I deisgned to help keep leasing paperwork organized.
+              </p>
+              <a href="https://leasinglad.netlify.app/" target='_blank' class="min-w-fit">
+                <img href="https://leasinglad.netlify.app/" target='_blank' class="m-auto mt-4 h-40 rounded" src='https://i.ibb.co/X5nP2cB/Screenshot-2023-04-25-at-5-33-25-PM-2.png'></img>
+              </a>
+            </div>
+
+
+
             <div
               class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-stone-50 hover:shadow-stone-50"
             >
@@ -70,7 +110,9 @@ const App = () => {
               <p class="mt-1 text-sm text-gray-300 text-center">
                 RideStack is a luxury all-electric vehicle sales website. Users can create accounts and select electric vehicles to purchase.
               </p>
-              <img class="m-auto mt-4 h-40 rounded" src='https://i.ibb.co/526Zbjs/Screenshot-2023-04-14-at-11-59-33-PM-2.png'></img>
+              <a href="https://ride-stack.netlify.app/" target='_blank' class="min-w-fit">
+                <img class="m-auto mt-4 h-40 rounded" src='https://i.ibb.co/526Zbjs/Screenshot-2023-04-14-at-11-59-33-PM-2.png'></img>
+              </a>
             </div>
 
 
@@ -85,7 +127,9 @@ const App = () => {
               <p class="mt-1 text-sm text-gray-300 text-center">
                 This app was created to assist in my current property management role and quickly calculates rent specials for when I meet with clients.
               </p>
-              <img class="m-auto mt-4 h-40 rounded" src='https://i.ibb.co/zrFRq23/Screenshot-2023-04-14-at-11-35-37-PM-2.png'></img>
+              <a href="https://rent-specials-calculator.netlify.app/" target='_blank' class="min-w-fit">
+                <img class="m-auto mt-4 h-40 rounded" src='https://i.ibb.co/zrFRq23/Screenshot-2023-04-14-at-11-35-37-PM-2.png'></img>
+              </a>
             </div>
 
 
@@ -101,8 +145,9 @@ const App = () => {
               <p class="mt-1 text-sm text-gray-300 text-center">
                 This app assists in my current property management role to calculate prorated costs for when I put together lease paperwork.
               </p>
-              <img class="m-auto mt-4 h-40 rounded" src='https://i.ibb.co/THrt68v/Screenshot-2023-04-15-at-12-18-36-AM-2.png'></img>
-
+              <a href="https://prorationcalculator.netlify.app/" target='_blank' class="min-w-fit">
+                <img class="m-auto mt-4 h-40 rounded" src='https://i.ibb.co/THrt68v/Screenshot-2023-04-15-at-12-18-36-AM-2.png'></img>
+              </a>
             </div>
 
 
@@ -119,7 +164,9 @@ const App = () => {
               <p class="mt-1 text-sm text-gray-300 text-center">
                 Fitness Tracker is a fitness website where users can create accounts and create there own workout routines to share with others.
               </p>
-              <img class="m-auto mt-4 h-40 rounded" src='https://i.ibb.co/hyXM17N/Screenshot-2023-04-15-at-12-21-40-AM-2.png'></img>
+              <a href="https://calm-taiyaki-b6ef03.netlify.app/" target='_blank' class="min-w-fit">
+                <img class="m-auto mt-4 h-40 rounded" src='https://i.ibb.co/hyXM17N/Screenshot-2023-04-15-at-12-21-40-AM-2.png'></img>
+              </a>
             </div>
 
 
@@ -136,7 +183,9 @@ const App = () => {
               <p class="mt-1 text-sm text-gray-300 text-center">
                 Strangers Things is a marketplace like website similar to craigslist where users can post items for sale and message other users.
               </p>
-              <img class="m-auto mt-4 h-40 rounded" src='https://i.ibb.co/MG4Zr4M/Screenshot-2023-04-15-at-12-24-38-AM-2.png'></img>
+              <a href="https://stellar-klepon-e9797a.netlify.app" target='_blank' class="min-w-fit">
+                <img class="m-auto mt-4 h-40 rounded" src='https://i.ibb.co/MG4Zr4M/Screenshot-2023-04-15-at-12-24-38-AM-2.png'></img>
+              </a>
             </div>
 
 
@@ -153,7 +202,9 @@ const App = () => {
               <p class="mt-1 text-sm text-gray-300 text-center">
                 This tic tac toe game allows two players to enter their names and play against one another.
               </p>
-              <img class="m-auto mt-4 h-40 rounded" src='https://i.ibb.co/9n11jBj/Screenshot-2023-04-15-at-12-27-04-AM-2.png'></img>
+              <a href="https://bobbywhitacre27.github.io/TicTacToe_finalsubmission/" target='_blank' class="min-w-fit">
+                <img class="m-auto mt-4 h-40 rounded" src='https://i.ibb.co/9n11jBj/Screenshot-2023-04-15-at-12-27-04-AM-2.png'></img>
+              </a>
             </div>
 
 
@@ -171,7 +222,9 @@ const App = () => {
               <p class="mt-1 text-sm text-gray-300 text-center">
                 Est. August 2022 this was my very first website attempt. While not pretty, it shows how far I've come!
               </p>
-              <img class="m-auto mt-4 h-40 rounded" src='https://i.ibb.co/VJLtspT/Screenshot-2023-04-15-at-12-30-06-AM-2.png'></img>
+              <a href="https://bobbywhitacre27.github.io/cv/" target='_blank' class="min-w-fit">
+                <img class="m-auto mt-4 h-40 rounded" src='https://i.ibb.co/VJLtspT/Screenshot-2023-04-15-at-12-30-06-AM-2.png'></img>
+              </a>
             </div>
 
 
@@ -182,7 +235,7 @@ const App = () => {
       </section>
 
 
-      <section class="bg-white">
+      <section id="education" class="bg-white">
         <div class="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 md:py-6 lg:px-8">
 
 
@@ -233,63 +286,63 @@ const App = () => {
       </section>
 
 
-      <section>
-  <div class="max-w-screen-xl px-4 py-8 mx-auto sm:py-12 sm:px-6 lg:px-8">
-    <div class="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:items-stretch">
-      <div class="grid p-6 bg-gray-700 rounded place-content-center sm:p-8">
-        <div class="max-w-md mx-auto text-center lg:text-left">
-          <header>
-            <h2 class="text-xl font-bold text-white sm:text-5xl">About me</h2>
+      <section id="about">
+        <div class="max-w-screen-xl px-4 py-4 mx-auto sm:py-8 sm:px-6 lg:px-8">
+          <div class="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:items-stretch">
+            <div class="grid p-6 bg-gray-700 rounded place-content-center sm:p-8">
+              <div class="max-w-md mx-auto text-center lg:text-left">
+                <header>
+                  <h2 class="text-xl font-bold text-white sm:text-5xl">About me</h2>
 
-            <p class="mt-4 text-white">
-              Over 5 years of professional experience in the real estate and construction management industries.
-            </p>
-            <p class="mt-4 text-white">
-              Began learning to code in 2022. Have always had a nack for building things and now love creating my own apps.
-            </p>
-            <p class="mt-4 text-white">
-              Outside of work you will likely find me either working out, at my boxing gym, watching Netlix's latest reality show, eating sushi or traveling the world!
-            </p>
-          </header>
+                  <p class="mt-4 text-white">
+                    Over 5 years of professional experience in the real estate and construction management industries.
+                  </p>
+                  <p class="mt-4 text-white">
+                    Began learning to code in 2022. Have always had a nack for building things and now love creating my own apps.
+                  </p>
+                  <p class="mt-4 text-white">
+                    Outside of work you will likely find me either working out, at my boxing gym, watching Netlix's latest reality show, eating sushi or traveling the world!
+                  </p>
+                </header>
+              </div>
+            </div>
+
+            <div class="lg:col-span-2 lg:py-8">
+              <ul class="grid grid-cols-2 gap-4">
+                <li>
+                  <a href="#" class="block group">
+                    <img
+                      src="https://i.ibb.co/nMRfmK1/IMG-7139.jpg"
+                      alt=""
+                      class="object-cover w-full rounded aspect-square"
+                    />
+
+
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="block group">
+                    <img
+                      src="https://i.ibb.co/Rhq7Rzj/IMG-1672.jpg"
+                      alt=""
+                      class="object-cover w-full rounded aspect-square"
+                    />
+
+
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-      </div>
-
-      <div class="lg:col-span-2 lg:py-8">
-        <ul class="grid grid-cols-2 gap-4">
-          <li>
-            <a href="#" class="block group">
-              <img
-                src="https://i.ibb.co/nMRfmK1/IMG-7139.jpg"
-                alt=""
-                class="object-cover w-full rounded aspect-square"
-              />
-
-       
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="block group">
-              <img
-                src="https://i.ibb.co/Rhq7Rzj/IMG-1672.jpg"
-                alt=""
-                class="object-cover w-full rounded aspect-square"
-              />
-
-
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
+      </section>
 
 
 
 
 
-      <footer aria-label="Site Footer" class="bg-gray-100">
+      <footer aria-label="Site Footer" class="bg-gray-300 mt-12">
         <div class="mx-auto max-w-5xl px-4 py-8 sm:px-6 lg:px-8">
           <ul class="mt-6  flex justify-center align-center gap-6 md:gap-8">
             <li>
