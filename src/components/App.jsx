@@ -1,9 +1,47 @@
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
+import emailjs from 'emailjs-com'
 
 import '../style/App.css';
 
 const App = () => {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
 
+  var templateParams = {
+    name: name,
+    email: email,
+    message: message, 
+};
+ 
+
+
+
+  const handleName = event => {
+    setName(event.target.value)
+}
+
+const handleEmail = event => {
+  setEmail(event.target.value)
+}
+
+const handleMessage = event => {
+  setMessage(event.target.value)
+}
+
+const handleSubmit = event => {
+  event.preventDefault();
+
+  emailjs.send('service_cznbhyj', 'template_nwfszks', templateParams, 'wv6Rc5vSz8dJCkLk0')
+    .then(function(response) {
+       console.log('SUCCESS!', response.status, response.text);
+    }, function(error) {
+       console.log('FAILED...', error);
+    });
+
+    window.alert("Thank you for your message! I will respond to you soon!")
+
+}
 
   useEffect(() => {
 
@@ -27,7 +65,7 @@ const App = () => {
 
     <li><a class="rounded-lg px-3 py-2" href="#about"> About </a></li>  
 
-    {/* <li><a class="rounded-lg px-3 py-2" href="#about"> Contact </a></li>   */}
+    <li><a class="rounded-lg px-3 py-2" href="#contact"> Contact </a></li>  
   </ul>
 </nav>
 
@@ -344,141 +382,81 @@ const App = () => {
 
  
 
-{/* <section class="bg-gray-100">
-  <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
-    <div class="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
-      <div class="lg:col-span-2 lg:py-12">
-        <p class="max-w-xl text-lg">
-          At the same time, the fact that we are wholly owned and totally
-          independent from manufacturer and other group control gives you
-          confidence that we will only recommend what is right for you.
-        </p>
+<section id="contact">
+  <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 lg:w-1/2">
 
-        <div class="mt-8">
-          <a href="" class="text-2xl font-bold text-pink-600">
-            0151 475 4450
-          </a>
 
-          <address class="mt-2 not-italic">
-            282 Kevin Brook, Imogeneborough, CA 58517
-          </address>
-        </div>
-      </div>
 
-      <div class="rounded-lg bg-white p-8 shadow-lg lg:col-span-3 lg:p-12">
+      <div class="rounded-lg bg-white p-8 shadow-lg border-2 border-bg-gray-100 bg-gray-100 lg:col-span-3 lg:p-12">
+
+      <h2 class="text-2xl font-bold text-center mb-4 sm:text-5xl">
+                Contact me:
+              </h2>
+              <p class="text-gray-600 text-center mb-4">Like what you see? Reach out to me, I'd love to connect!</p>
+
         <form action="" class="space-y-4">
           <div>
             <label class="sr-only" for="name">Name</label>
             <input
-              class="w-full rounded-lg border-gray-200 p-3 text-sm"
+              class="w-full rounded-lg border-black p-3 text-sm"
               placeholder="Name"
               type="text"
               id="name"
+              onChange={handleName}
             />
           </div>
 
-          <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+          <div class="grid grid-cols-1 gap-4">
             <div>
               <label class="sr-only" for="email">Email</label>
               <input
-                class="w-full rounded-lg border-gray-200 p-3 text-sm"
+                class="w-full rounded-lg border-black p-3 text-sm"
                 placeholder="Email address"
                 type="email"
                 id="email"
+                onChange={handleEmail}
               />
             </div>
 
-            <div>
+            {/* <div>
               <label class="sr-only" for="phone">Phone</label>
               <input
-                class="w-full rounded-lg border-gray-200 p-3 text-sm"
+                class="w-full rounded-lg border-black p-3 text-sm"
                 placeholder="Phone Number"
                 type="tel"
                 id="phone"
               />
-            </div>
+            </div> */}
           </div>
 
-          <div class="grid grid-cols-1 gap-4 text-center sm:grid-cols-3">
-            <div>
-              <input
-                class="peer sr-only"
-                id="option1"
-                type="radio"
-                tabindex="-1"
-                name="option"
-              />
-
-              <label
-                for="option1"
-                class="block w-full rounded-lg border border-gray-200 p-3 hover:border-black peer-checked:border-black peer-checked:bg-black peer-checked:text-white"
-                tabindex="0"
-              >
-                <span class="text-sm font-medium"> Option 1 </span>
-              </label>
-            </div>
-
-            <div>
-              <input
-                class="peer sr-only"
-                id="option2"
-                type="radio"
-                tabindex="-1"
-                name="option"
-              />
-
-              <label
-                for="option2"
-                class="block w-full rounded-lg border border-gray-200 p-3 hover:border-black peer-checked:border-black peer-checked:bg-black peer-checked:text-white"
-                tabindex="0"
-              >
-                <span class="text-sm font-medium"> Option 2 </span>
-              </label>
-            </div>
-
-            <div>
-              <input
-                class="peer sr-only"
-                id="option3"
-                type="radio"
-                tabindex="-1"
-                name="option"
-              />
-
-              <label
-                for="option3"
-                class="block w-full rounded-lg border border-gray-200 p-3 hover:border-black peer-checked:border-black peer-checked:bg-black peer-checked:text-white"
-                tabindex="0"
-              >
-                <span class="text-sm font-medium"> Option 3 </span>
-              </label>
-            </div>
-          </div>
+       
 
           <div>
             <label class="sr-only" for="message">Message</label>
 
             <textarea
-              class="w-full rounded-lg border-gray-200 p-3 text-sm"
+              class="w-full rounded-lg border-black p-3 text-sm"
               placeholder="Message"
               rows="8"
               id="message"
+              onChange={handleMessage}
             ></textarea>
           </div>
 
-          <div class="mt-4">
+          <div class="mt-4 text-center">
             <button
               type="submit"
               class="inline-block w-full rounded-lg bg-black px-5 py-3 font-medium text-white sm:w-auto"
+              onClick={handleSubmit}
             >
-              Send Enquiry
+              Send
             </button>
           </div>
         </form>
-      </div>
+    
     </div>
   </div>
-</section> */}
+</section>
 
 
 
