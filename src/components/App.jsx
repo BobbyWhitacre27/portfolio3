@@ -339,7 +339,7 @@ const handleSubmit = event => {
                     Began learning to code in 2022. Have always had a nack for building things and now love creating my own apps.
                   </p>
                   <p class="mt-4 text-white">
-                    Outside of work you will likely find me either working out, at my boxing gym, watching Netlix's latest reality show, eating sushi or traveling the world!
+                    Outside of work you will likely find me working out at my favorite boxing gym, watching Netlix's latest reality show, eating sushi or traveling the world!
                   </p>
                 </header>
               </div>
