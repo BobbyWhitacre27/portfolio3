@@ -53,10 +53,10 @@ const handleSubmit = event => {
 
 <nav
   aria-label="Site Nav"
-  class=" flex text-sm md:text-2xl items-center justify-center p-4 bg-gray-300"
+  class=" flex text-sm md:text-2xl items-center justify-center p-4 bg-gray-700"
 >
 
-  <ul class="flex items-center gap-2 font-bold text-black">
+  <ul class="flex items-center gap-2 font-bold text-white">
     <li class="">
       <a class="rounded-lg px-3 py-2" href="#projects"> Projects </a>
     </li>
@@ -125,8 +125,10 @@ const handleSubmit = event => {
 
 
               <h2><a href="https://leasinglad.netlify.app/" target='_blank' class="flex justify-center text-xl font-bold text-white underline">Leasing Lad.</a></h2>
+              <div class="flex justify-center gap-4">
+              <a href="https://www.youtube.com/watch?v=Nwsp7YmKuJM" target="_blank" class="flex justify-center mt-1 text-sm text-gray-300 underline">YouTube Demo</a>
               <a href="https://github.com/BobbyWhitacre27/leasing_lad" target="_blank" class="flex justify-center mt-1 text-sm text-gray-300 underline">GitHub Link</a>
-
+              </div>
               <p class="mt-1 text-sm text-gray-300 text-center">
                 Leasing Lad is a property management software tool I deisgned to help keep leasing paperwork organized.
               </p>
@@ -143,7 +145,11 @@ const handleSubmit = event => {
 
 
               <h2><a href="https://ride-stack.netlify.app/" target='_blank' class="flex justify-center text-xl font-bold text-white underline">RideStack</a></h2>
+              
+              <div class="flex justify-center gap-4">
+              <a href="https://www.youtube.com/watch?v=sx_Pr8Szygk" target="_blank" class="flex justify-center mt-1 text-sm text-gray-300 underline">YouTube Demo</a>
               <a href="https://github.com/rideStack/RideStack" target="_blank" class="flex justify-center mt-1 text-sm text-gray-300 underline">GitHub Link</a>
+              </div>
 
               <p class="mt-1 text-sm text-gray-300 text-center">
                 RideStack is a luxury all-electric vehicle sales website. Users can create accounts and select electric vehicles to purchase.
@@ -463,18 +469,17 @@ const handleSubmit = event => {
 
 
 
-      <footer aria-label="Site Footer" class="bg-gray-300 mt-12">
+      <footer aria-label="Site Footer" class="bg-gray-700 mt-12">
         <div class="mx-auto max-w-5xl px-4 py-8 sm:px-6 lg:px-8">
-          <ul class="mt-6  flex justify-center align-center gap-6 md:gap-8">
+          <ul class="mt-4 mb-4  flex justify-center align-center gap-6 md:gap-8">
             <li>
               <a
                 href="https://www.linkedin.com/in/bobby-whitacre/"
                 rel="noreferrer"
                 target="_blank"
-                class="text-gray-700 transition hover:text-gray-700/75"
+                class="text-white underline"
               >
-
-                <img class="h-12 w-12" src='https://cdn-icons-png.flaticon.com/128/3536/3536569.png' ></img>
+                LinkedIn
 
               </a>
             </li>
@@ -484,11 +489,10 @@ const handleSubmit = event => {
                 href="mailto: bobby.whitacre27@gmail.com"
                 rel="noreferrer"
                 target="_blank"
-                class="text-gray-700 transition hover:text-gray-700/75"
+                class="text-white underline"
               >
-
-                <img class="h-12 w-12" src='https://cdn-icons-png.flaticon.com/128/542/542689.png' ></img>
-
+                Email
+  
               </a>
             </li>
 
@@ -499,10 +503,10 @@ const handleSubmit = event => {
                 href="https://github.com/BobbyWhitacre27"
                 rel="noreferrer"
                 target="_blank"
-                class="text-gray-700 transition hover:text-gray-700/75"
+                class="text-white underline"
               >
 
-                <img class="h-12 w-12" src='https://cdn-icons-png.flaticon.com/128/3291/3291695.png' ></img>
+                GitHub
 
               </a>
             </li>
