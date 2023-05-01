@@ -221,13 +221,13 @@ const handleSubmit = event => {
             >
 
 
-              <h2><a href="https://stellar-klepon-e9797a.netlify.app" target='_blank' class="flex justify-center text-xl font-bold text-white underline">Stranger's Things</a></h2>
+              <h2><a href="https://strangersthings-bobbywhitacre.netlify.app/" target='_blank' class="flex justify-center text-xl font-bold text-white underline">Stranger's Things</a></h2>
               <a href="https://github.com/BobbyWhitacre27/Strangers_Things" target="_blank" class="flex justify-center mt-1 text-sm text-gray-300 underline">GitHub Link</a>
 
               <p class="mt-1 text-sm text-gray-300 text-center">
                 Strangers Things is a marketplace like website similar to craigslist where users can post items for sale and message other users.
               </p>
-              <a href="https://stellar-klepon-e9797a.netlify.app" target='_blank' class="min-w-fit">
+              <a href="https://strangersthings-bobbywhitacre.netlify.app/" target='_blank' class="min-w-fit">
                 <img class="m-auto mt-4 h-40 rounded" src='https://i.ibb.co/MG4Zr4M/Screenshot-2023-04-15-at-12-24-38-AM-2.png'></img>
               </a>
             </div>
