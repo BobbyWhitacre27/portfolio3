@@ -58,7 +58,7 @@ const handleSubmit = event => {
 
   <ul class="flex items-center gap-2 font-bold text-white">
     <li class="">
-      <a class="rounded-lg px-3 py-2" href="#projects"> Projects </a>
+      <a class="rounded-lg px-3 py-2 transition duration-500" href="#projects"> Projects </a>
     </li>
 
     <li><a class="rounded-lg px-3 py-2" href="#education"> Education </a></li>
@@ -160,6 +160,31 @@ const handleSubmit = event => {
             </div>
 
 
+
+
+			<div
+              class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-stone-50 hover:shadow-stone-50"
+            >
+
+
+              <h2><a href="https://masala-house.netlify.app/" target='_blank' class="flex justify-center text-xl font-bold text-white underline">Masala House</a></h2>
+              
+              <div class="flex justify-center gap-4">
+   
+              <a href="https://github.com/BobbyWhitacre27/masala_house" target="_blank" class="flex justify-center mt-1 text-sm text-gray-300 underline">GitHub Link</a>
+              </div>
+
+              <p class="mt-1 text-sm text-gray-300 text-center">
+                Masala House is a made up indian resturant. Created to practice front-end skills with JavaScript and React.
+              </p>
+              <a href="https://masala-house.netlify.app//" target='_blank' class="min-w-fit">
+                <img class="m-auto mt-4 h-40 rounded" src='https://i.ibb.co/7Q7y57v/Masala-House-Web-Page.png'></img>
+              </a>
+            </div>
+
+
+
+
             <div
               class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-stone-50 hover:shadow-stone-50"
             >
@@ -233,7 +258,7 @@ const handleSubmit = event => {
             </div>
 
 
-            <div
+            {/* <div
               class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-stone-50 hover:shadow-stone-50"
               href="/services/digital-campaigns"
             >
@@ -249,7 +274,7 @@ const handleSubmit = event => {
               <a href="https://bobbywhitacre27.github.io/TicTacToe_finalsubmission/" target='_blank' class="min-w-fit">
                 <img class="m-auto mt-4 h-40 rounded" src='https://i.ibb.co/9n11jBj/Screenshot-2023-04-15-at-12-27-04-AM-2.png'></img>
               </a>
-            </div>
+            </div> */}
 
 
 
