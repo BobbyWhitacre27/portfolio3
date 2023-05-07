@@ -58,7 +58,7 @@ const handleSubmit = event => {
 
   <ul class="flex items-center gap-2 font-bold text-white">
     <li class="">
-      <a class="rounded-lg px-3 py-2 transition duration-500" href="#projects"> Projects </a>
+      <a class="rounded-lg px-3 py-2" href="#projects"> Projects </a>
     </li>
 
     <li><a class="rounded-lg px-3 py-2" href="#education"> Education </a></li>
