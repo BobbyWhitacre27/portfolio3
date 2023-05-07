@@ -220,7 +220,7 @@ const handleSubmit = event => {
             </div>
 
 
-            <div
+            {/* <div
               class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-stone-50 hover:shadow-stone-50"
               href="/services/digital-campaigns"
             >
@@ -236,11 +236,11 @@ const handleSubmit = event => {
               <a href="https://calm-taiyaki-b6ef03.netlify.app/" target='_blank' class="min-w-fit">
                 <img class="m-auto mt-4 h-40 rounded" src='https://i.ibb.co/hyXM17N/Screenshot-2023-04-15-at-12-21-40-AM-2.png'></img>
               </a>
-            </div>
+            </div> */}
 
 
 
-            <div
+            {/* <div
               class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-stone-50 hover:shadow-stone-50"
               href="/services/digital-campaigns"
             >
@@ -255,7 +255,7 @@ const handleSubmit = event => {
               <a href="https://strangersthings-bobbywhitacre.netlify.app/" target='_blank' class="min-w-fit">
                 <img class="m-auto mt-4 h-40 rounded" src='https://i.ibb.co/MG4Zr4M/Screenshot-2023-04-15-at-12-24-38-AM-2.png'></img>
               </a>
-            </div>
+            </div> */}
 
 
             {/* <div
