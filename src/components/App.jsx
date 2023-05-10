@@ -89,7 +89,7 @@ const handleSubmit = event => {
               <h2 class="text-3xl font-bold sm:text-8xl">Welcome to my Portfolio</h2>
 
               <p class="mt-4 text-gray-600 sm:text-xl">
-                Hello! I'm Bobby Whitacre, a Full-Stack Developer in the Washington D.C. area.
+                Hello! I'm Bobby Whitacre, a <span class="font-bold italic text-black">Full-Stack Developer</span> in the Washington D.C. area.
               </p>
 
 
@@ -495,7 +495,7 @@ const handleSubmit = event => {
 
 
       <footer aria-label="Site Footer" class="bg-gray-700 mt-12">
-        <div class="mx-auto max-w-5xl px-4 py-8 sm:px-6 lg:px-8">
+        <div class="mx-auto max-w-5xl px-4 py-8 sm:px-6 lg:px-8 text-xl">
           <ul class="mt-4 mb-4  flex justify-center align-center gap-6 md:gap-8">
             <li>
               <a
