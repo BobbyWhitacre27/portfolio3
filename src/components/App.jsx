@@ -177,7 +177,7 @@ const handleSubmit = event => {
               <p class="mt-1 text-sm text-gray-300 text-center">
                 Masala House is a made up indian resturant. Created to practice front-end skills with JavaScript and React.
               </p>
-              <a href="https://masala-house.netlify.app//" target='_blank' class="min-w-fit">
+              <a href="https://masala-house.netlify.app/" target='_blank' class="min-w-fit">
                 <img class="m-auto mt-4 h-40 rounded" src='https://i.ibb.co/7Q7y57v/Masala-House-Web-Page.png'></img>
               </a>
             </div>
