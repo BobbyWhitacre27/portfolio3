@@ -119,6 +119,29 @@ const handleSubmit = event => {
 
           <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-2">
 
+
+
+		  <div
+              class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-stone-50 hover:shadow-stone-50"
+            >
+
+
+              <h2><a href="https://turn-key.netlify.app/" target='_blank' class="flex justify-center text-xl font-bold text-white underline">TurnKey</a></h2>
+              <div class="flex justify-center gap-4">
+              <a href="https://github.com/BobbyWhitacre27/TurnKey" target="_blank" class="flex justify-center mt-1 text-sm text-gray-300 underline">GitHub Link</a>
+              </div>
+              <p class="mt-1 text-sm text-gray-300 text-center">
+                TurnKey is an online real estate website where users can post properties for sale or for rent. 
+              </p>
+              <a href="https://turn-key.netlify.app/" target='_blank' class="min-w-fit">
+                <img href="https://turn-key.netlify.app/" target='_blank' class="m-auto mt-4 h-40 rounded" src='https://i.ibb.co/6HtWSF5/Screenshot-2023-06-26-at-2-56-09-PM-2.png'></img>
+              </a>
+            </div>
+
+
+
+
+
             <div
               class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-stone-50 hover:shadow-stone-50"
             >
