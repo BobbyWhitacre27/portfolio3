@@ -352,11 +352,15 @@ const App = () => {
 
 
 
+
+
+
+
 						<div
-							class="block text-black rounded-xl border border-gray-800 p-8 shadow-xl transition hover:shadow-stone-50"
+							class="block text-white bg-gray-600 rounded-xl p-8 shadow-xl transition hover:shadow-stone-50"
 						>
 
-
+						
 							<h2><a href="https://turn-key.netlify.app/" target='_blank' class="flex justify-center text-xl font-bold underline">TurnKey</a></h2>
 							<div class="flex justify-center gap-4">
 								<a href="https://github.com/BobbyWhitacre27/TurnKey" target="_blank" class="flex justify-center mt-1 text-sm  underline">GitHub Link</a>
@@ -374,7 +378,7 @@ const App = () => {
 
 
 						<div
-							class="block rounded-xl border border-gray-800 p-8 shadow-xl transition  hover:shadow-stone-50"
+							class="block rounded-xl text-white bg-gray-600 p-8 shadow-xl transition  hover:shadow-stone-50"
 						>
 
 
@@ -394,7 +398,7 @@ const App = () => {
 
 
 						<div
-							class="block rounded-xl border border-gray-800 p-8 shadow-xl hover:shadow-stone-50"
+							class="block rounded-xl text-white bg-gray-600 p-8 shadow-xl hover:shadow-stone-50"
 						>
 
 
@@ -417,7 +421,7 @@ const App = () => {
 
 
 						<div
-							class="block rounded-xl border border-gray-800 p-8 shadow-xl transition  hover:shadow-stone-50"
+							class="block rounded-xl text-white bg-gray-600 p-8 shadow-xl transition  hover:shadow-stone-50"
 						>
 
 
@@ -440,7 +444,7 @@ const App = () => {
 
 
 						<div
-							class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:shadow-stone-50"
+							class="block rounded-xl text-white bg-gray-600 p-8 shadow-xl transition hover:shadow-stone-50"
 						>
 
 
@@ -458,7 +462,7 @@ const App = () => {
 
 
 						<div
-							class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:shadow-stone-50"
+							class="block rounded-xl text-white bg-gray-600 p-8 shadow-xl transition hover:shadow-stone-50"
 						>
 
 
