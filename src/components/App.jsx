@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import emailjs from 'emailjs-com'
-
+import portfolioheader from '../photos/portfolioheader.png'
+import bobbyimage from '../photos/bobbyimage.jpg'
+import bobbyheadshot from '../photos/bobbyheadshot.png'
 import '../style/App.css';
 
 const App = () => {
@@ -51,7 +53,107 @@ const App = () => {
 		<div>
 
 
-			<nav
+
+
+			<header class="bg-white">
+				<div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+					<div class="flex h-16 items-center justify-center sm:justify-between">
+						<div class="hidden flex-1 sm:flex md:items-center md:gap-12">
+							<img class="h-14" src={portfolioheader} />
+						</div>
+
+						<div class="md:flex md:items-center md:gap-12">
+							<nav aria-label="Global" class="md:block">
+								<ul class="flex items-center gap-6 text-sm">
+									<li>
+										<a
+											class="text-gray-500 transition hover:text-gray-500/75 scroll-smooth"
+											href="#projects"
+										>
+											Projects
+										</a>
+									</li>
+
+									<li>
+										<a
+											class="text-gray-500 transition hover:text-gray-500/75"
+											href="#education"
+										>
+											Education
+										</a>
+									</li>
+
+									<li>
+										<a
+											class="text-gray-500 transition hover:text-gray-500/75"
+											href="#about"
+										>
+											About
+										</a>
+									</li>
+
+									<li>
+										<a
+											class="text-gray-500 transition hover:text-gray-500/75"
+											href="#contact"
+										>
+											Contact
+										</a>
+									</li>
+
+
+								</ul>
+							</nav>
+
+							<div class="flex items-center gap-4">
+
+								{/* 
+								<div class="block md:hidden">
+									<button
+										class="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75"
+									>
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											class="h-5 w-5"
+											fill="none"
+											viewBox="0 0 24 24"
+											stroke="currentColor"
+											stroke-width="2"
+										>
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												d="M4 6h16M4 12h16M4 18h16"
+											/>
+										</svg>
+									</button>
+								</div> */}
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+
+
+
+
+
+
+			<section
+				class="overflow-hidden bg-[url(https://images.pexels.com/photos/251225/pexels-photo-251225.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)] bg-cover bg-top bg-no-repeat bg-center"
+			>
+				<div class="bg-black/25 p-8 md:p-12 lg:px-16 lg:py-12">
+					<div class="flex justify-evenly text-left">
+						<img class="rounded-full h-36 md:h-64 border-white border-4 sm:m-none" src={bobbyheadshot} ></img>
+						<h2 class="font-bold hidden pt-12 text-white sm:text-4xl md:text-4xl lg:text-6xl"></h2>
+					</div>
+				</div>
+			</section>
+
+
+
+
+			{/* <nav
 				aria-label="Site Nav"
 				class=" flex text-sm md:text-2xl items-center justify-center bg-gray-100"
 			>
@@ -73,47 +175,99 @@ const App = () => {
 						<a class="rounded-lg px-3 py-2" href="#contact"> Contact </a>
 					</li>
 				</ul>
-			</nav>
+			</nav> */}
+
+
+			{/* <div>
+
+				<div class="">
+					<img src="https://images.pexels.com/photos/251225/pexels-photo-251225.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="brightness-50 object-cover h-72 w-full" />
+				</div>
+
+				<div class="absolute inset-x-0 top-2 mt-8">
+					<div class="flex lg:top-10 md:top-10 sm:top-10 justify-center content-center text-left ">
+						<div class="w-3/4">
+							<h1 class="text-6xl font-bold text-white mt-14 ml-4">Welcome to my Portfolio</h1>
+							<p class="mt-4 text-xl text-white font-bold">
+								Hello! I'm Bobby Whitacre, a <span class="font-bold italic text-white">Full-Stack Developer</span> in the Washington D.C. area.
+							</p>
+						</div>
+						<div class="text-center w-1/2">
+							<img class="mt-16 h-52 rounded-full m-auto" src={bobbyheadshot}></img>
+
+						</div>
+					</div>
+				</div>
+			</div> */}
+
 
 
 			<section>
 				<div
-					class="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8"
+					class="mx-auto max-w-screen-xl px-4 py-4 sm:py-4 sm:px-6 lg:py-4 lg:px-8"
 				>
-					<div class="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-16">
-						<div
-							class="relative h-64 overflow-hidden rounded-lg sm:h-80 md:order-last md:h-full"
-						>
-							<img
-								alt="Bobby"
-								src="https://avatars.githubusercontent.com/u/111461443?v=4"
-								class="absolute inset-0 h-full w-full object-cover"
-							/>
-						</div>
+					<div class="text-center">
 
-						<div class="lg:py-24">
-							<h2 class="text-3xl font-bold sm:text-8xl">Welcome to my Portfolio</h2>
+
+						<div class="lg:py-6">
+							<h2 class="text-3xl font-bold sm:text-6xl">Welcome to my Portfolio</h2>
 
 							<p class="mt-4 text-gray-600 sm:text-xl">
-								👋 Hello! I'm Bobby Whitacre, a <span class="font-bold italic text-black">Full-Stack Developer</span> 👨‍💻 in the Washington D.C. area 🏛️.
+								Hello! I'm Bobby Whitacre, a <span class="font-bold text-black">Full-Stack Developer</span>  in the Washington D.C. area.
 							</p>
-
-
-
 							<h2 class="text-3xl font-bold py-8 sm:text-4xl">Skills</h2>
-							<h2 class="text-3xl font-bold sm:text-xl">JavaScript, React, Express, PostgreSQL, SQL, HTML, CSS, Tailwind CSS, Node.js, GitHub, Netlify & Render</h2>
 
-							{/* 							
-							<div class="grid grid-cols-5 gap-2">
-								<img id="javascript" class="h-20" src="https://img.icons8.com/?size=512&id=108784&format=png"></img>
-								<img id="react" class="h-20" src="https://img.icons8.com/?size=512&id=NfbyHexzVEDk&format=png"></img>
-								<img id="postgres" class=" h-20" src="https://img.icons8.com/?size=512&id=36440&format=png"></img>
-								<img id="sql" class=" h-20" src="https://media.istockphoto.com/id/1298834585/vector/sql-icon-major-database-format-vector-icon-illustration.jpg?s=612x612&w=0&k=20&c=GibfLwPw_hjsQMVQUMf-GQIzrp3Bkh_KWOoN5WpOiPI="></img>
-								<img id="HTML" class="h-20" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png"></img>
-								<img id="CSS" class=" h-20" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"></img>
-								<img id="TailwindCSS" class=" h-20 p-2" src="data:image/png;base64,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"></img>
-							</div> */}
 
+							<div class="grid grid-cols-3 md:flex gap-2 justify-evenly">
+								
+								<div>
+									<h1 class="text-sm text-gray-500 italic">JavaScript</h1>
+									<img id="javascript" class="h-20 m-auto" src="https://img.icons8.com/?size=512&id=108784&format=png"></img>
+								</div>
+
+								<div>
+									<h1 class="text-sm text-gray-500 italic">React</h1>
+									<img id="react" class="h-20 m-auto" src="https://img.icons8.com/?size=512&id=NfbyHexzVEDk&format=png"></img>
+								</div>
+
+								<div>
+									<h1 class="text-sm text-gray-500 italic">Postgres</h1>
+									<img id="postgres" class="p-2 h-20 m-auto" src="https://img.icons8.com/?size=512&id=36440&format=png"></img>
+								</div>
+
+								<div>
+									<h1 class="text-sm text-gray-500 italic">SQL</h1>
+									<img id="sql" class="p-3 h-20 m-auto" src="https://media.istockphoto.com/id/1298834585/vector/sql-icon-major-database-format-vector-icon-illustration.jpg?s=612x612&w=0&k=20&c=GibfLwPw_hjsQMVQUMf-GQIzrp3Bkh_KWOoN5WpOiPI="></img>
+								</div>
+
+								<div>
+									<h1 class="text-sm text-gray-500 italic">HTML</h1>
+									<img id="HTML" class="p-2 h-20 m-auto" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png"></img>
+								</div>
+
+								<div>
+									<h1 class="text-sm text-gray-500 italic">CSS</h1>
+									<img id="CSS" class="p-2 h-20 m-auto" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"></img>
+								</div>
+
+								<div>
+									<h1 class="text-sm text-gray-500 italic">TailwindCSS</h1>
+									<img id="TailwindCSS" class="p-5 h-20 m-auto" src="data:image/png;base64,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"></img>
+								</div>
+
+								<div>
+									<h1 class="text-sm text-gray-500 italic">GitHub</h1>
+									<img id="GitHub" class="p-2 h-20 m-auto" src="https://img.icons8.com/?size=512&id=12599&format=png"></img>
+								</div>
+
+								<div>
+									<h1 class="text-sm text-gray-500 italic">VS Code</h1>
+									<img id="VSCode" class="p-2 h-20 m-auto" src="https://img.icons8.com/?size=512&id=9OGIyU8hrxW5&format=png"></img>
+								</div>
+
+							</div>
+
+						
 
 
 
@@ -124,6 +278,61 @@ const App = () => {
 					</div>
 				</div>
 			</section>
+
+
+
+
+
+{/* 
+
+			<section>
+				<div
+					class="mx-auto max-w-screen-xl px-4 py-4 sm:py-4 sm:px-6 lg:py-4 lg:px-8"
+				>
+					<div class="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-16">
+						<div
+							class="relative h-64 overflow-hidden rounded-[60px] sm:h-80 md:order-last md:h-full md:w-full"
+						>
+							<img
+								alt="Bobby"
+								src={bobbyimage}
+								class="absolute inset-0 h-full w-full object-cover"
+							/>
+						</div>
+
+						<div class="lg:py-24">
+							<h2 class="text-3xl font-bold sm:text-8xl">Welcome to my Portfolio</h2>
+
+							<p class="mt-4 text-gray-600 sm:text-xl">
+								Hello! I'm Bobby Whitacre, a <span class="font-bold italic text-black">Full-Stack Developer</span>  in the Washington D.C. area.
+							</p>
+
+
+
+							<h2 class="text-3xl font-bold py-8 sm:text-4xl">Skills</h2>
+							<h2 class="text-3xl font-bold sm:text-xl">JavaScript, React, Express, PostgreSQL, SQL, HTML, CSS, Tailwind CSS, Node.js, GitHub, Netlify & Render</h2>
+
+
+							<div class="grid grid-cols-5 gap-2">
+								<img id="javascript" class="h-20" src="https://img.icons8.com/?size=512&id=108784&format=png"></img>
+								<img id="react" class="h-20" src="https://img.icons8.com/?size=512&id=NfbyHexzVEDk&format=png"></img>
+								<img id="postgres" class=" h-20" src="https://img.icons8.com/?size=512&id=36440&format=png"></img>
+								<img id="sql" class=" h-20" src="https://media.istockphoto.com/id/1298834585/vector/sql-icon-major-database-format-vector-icon-illustration.jpg?s=612x612&w=0&k=20&c=GibfLwPw_hjsQMVQUMf-GQIzrp3Bkh_KWOoN5WpOiPI="></img>
+								<img id="HTML" class="h-20" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png"></img>
+								<img id="CSS" class=" h-20" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"></img>
+								<img id="TailwindCSS" class=" h-20 p-2" src="data:image/png;base64,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"></img>
+							</div>
+
+
+
+
+
+
+
+						</div>
+					</div>
+				</div>
+			</section> */}
 
 
 			<section id="projects" class="bg-gray-100">
@@ -360,7 +569,7 @@ const App = () => {
 							class="block text-white bg-gray-600 rounded-xl p-8 shadow-xl transition hover:shadow-stone-50"
 						>
 
-						
+
 							<h2><a href="https://turn-key.netlify.app/" target='_blank' class="flex justify-center text-xl font-bold underline">TurnKey</a></h2>
 							<div class="flex justify-center gap-4">
 								<a href="https://github.com/BobbyWhitacre27/TurnKey" target="_blank" class="flex justify-center mt-1 text-sm  underline">GitHub Link</a>
@@ -476,83 +685,6 @@ const App = () => {
 								<img class="m-auto mt-4 h-40 rounded" src='https://i.ibb.co/THrt68v/Screenshot-2023-04-15-at-12-18-36-AM-2.png'></img>
 							</a>
 						</div>
-
-
-						{/* <div
-              class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-stone-50 hover:shadow-stone-50"
-              href="/services/digital-campaigns"
-            >
-
-
-              <h2><a href="https://calm-taiyaki-b6ef03.netlify.app/" target='_blank' class="flex justify-center text-xl font-bold text-white underline">Fitness Tracker</a></h2>
-              <a href="https://github.com/BobbyWhitacre27/UNIV_FitnessTrackr_Starter" target="_blank" class="flex justify-center mt-1 text-sm text-gray-300 underline">GitHub Link</a>
-
-
-              <p class="mt-1 text-sm text-gray-300 text-center">
-                Fitness Tracker is a fitness website where users can create accounts and create there own workout routines to share with others.
-              </p>
-              <a href="https://calm-taiyaki-b6ef03.netlify.app/" target='_blank' class="min-w-fit">
-                <img class="m-auto mt-4 h-40 rounded" src='https://i.ibb.co/hyXM17N/Screenshot-2023-04-15-at-12-21-40-AM-2.png'></img>
-              </a>
-            </div> */}
-
-
-
-						{/* <div
-              class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-stone-50 hover:shadow-stone-50"
-              href="/services/digital-campaigns"
-            >
-
-
-              <h2><a href="https://strangersthings-bobbywhitacre.netlify.app/" target='_blank' class="flex justify-center text-xl font-bold text-white underline">Stranger's Things</a></h2>
-              <a href="https://github.com/BobbyWhitacre27/Strangers_Things" target="_blank" class="flex justify-center mt-1 text-sm text-gray-300 underline">GitHub Link</a>
-
-              <p class="mt-1 text-sm text-gray-300 text-center">
-                Strangers Things is a marketplace like website similar to craigslist where users can post items for sale and message other users.
-              </p>
-              <a href="https://strangersthings-bobbywhitacre.netlify.app/" target='_blank' class="min-w-fit">
-                <img class="m-auto mt-4 h-40 rounded" src='https://i.ibb.co/MG4Zr4M/Screenshot-2023-04-15-at-12-24-38-AM-2.png'></img>
-              </a>
-            </div> */}
-
-
-						{/* <div
-              class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-stone-50 hover:shadow-stone-50"
-              href="/services/digital-campaigns"
-            >
-
-
-
-              <h2><a href="https://bobbywhitacre27.github.io/TicTacToe_finalsubmission/" target='_blank' class="flex justify-center text-xl font-bold text-white underline">Tic Tac Toe</a></h2>
-              <a href="https://github.com/BobbyWhitacre27/TicTacToe_finalsubmission" target="_blank" class="flex justify-center mt-1 text-sm text-gray-300 underline">GitHub Link</a>
-
-              <p class="mt-1 text-sm text-gray-300 text-center">
-                This tic tac toe game allows two players to enter their names and play against one another.
-              </p>
-              <a href="https://bobbywhitacre27.github.io/TicTacToe_finalsubmission/" target='_blank' class="min-w-fit">
-                <img class="m-auto mt-4 h-40 rounded" src='https://i.ibb.co/9n11jBj/Screenshot-2023-04-15-at-12-27-04-AM-2.png'></img>
-              </a>
-            </div> */}
-
-
-
-						{/* <div
-							class="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-stone-50 hover:shadow-stone-50"
-							href="/services/digital-campaigns"
-						>
-
-
-
-							<h2><a href="https://bobbywhitacre27.github.io/cv/" target='_blank' class="flex justify-center text-xl font-bold text-white underline">My Very First Site... Ever!</a></h2>
-							<a href="https://github.com/BobbyWhitacre27/cv" target="_blank" class="flex justify-center mt-1 text-sm text-gray-300 underline">GitHub Link</a>
-
-							<p class="mt-1 text-sm text-gray-300 text-center">
-								Est. August 2022 this was my very first website attempt. While not pretty, it shows how far I've come!
-							</p>
-							<a href="https://bobbywhitacre27.github.io/cv/" target='_blank' class="min-w-fit">
-								<img class="m-auto mt-4 h-40 rounded" src='https://i.ibb.co/VJLtspT/Screenshot-2023-04-15-at-12-30-06-AM-2.png'></img>
-							</a>
-						</div> */}
 
 
 					</div>
@@ -707,15 +839,7 @@ const App = () => {
 									/>
 								</div>
 
-								{/* <div>
-              <label class="sr-only" for="phone">Phone</label>
-              <input
-                class="w-full rounded-lg border-black p-3 text-sm"
-                placeholder="Phone Number"
-                type="tel"
-                id="phone"
-              />
-            </div> */}
+
 							</div>
 
 
