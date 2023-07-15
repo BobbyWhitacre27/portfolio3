@@ -144,7 +144,7 @@ const App = () => {
 			>
 				<div class="bg-black/25 p-8 md:p-12 lg:px-16 lg:py-12">
 					<div class="flex justify-evenly text-left">
-						<img class="rounded-full h-36 md:h-64 border-white border-4 sm:m-none" src={bobbyheadshot} ></img>
+						<img class="rounded-full h-36 sm:h-64 border-white border-4 sm:m-none" src={bobbyheadshot} ></img>
 						<h2 class="font-bold hidden pt-12 text-white sm:text-4xl md:text-4xl lg:text-6xl"></h2>
 					</div>
 				</div>
@@ -218,7 +218,7 @@ const App = () => {
 							<h2 class="text-3xl font-bold py-8 sm:text-4xl">Skills</h2>
 
 
-							<div class="grid grid-cols-3 md:flex gap-2 justify-evenly">
+							<div class="grid grid-cols-3 md:grid-cols-5 gap-2 justify-evenly">
 								
 								<div>
 									<h1 class="text-sm text-gray-500 italic">JavaScript</h1>
@@ -241,13 +241,18 @@ const App = () => {
 								</div>
 
 								<div>
+									<h1 class="text-sm text-gray-500 italic">Node.js</h1>
+									<img id="sql" class="p-3 h-20 m-auto" src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg"></img>
+								</div>
+
+								<div>
 									<h1 class="text-sm text-gray-500 italic">HTML</h1>
-									<img id="HTML" class="p-2 h-20 m-auto" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png"></img>
+									<img id="HTML" class="p-2 h-20 m-auto" src="https://img.icons8.com/?size=512&id=20909&format=png"></img>
 								</div>
 
 								<div>
 									<h1 class="text-sm text-gray-500 italic">CSS</h1>
-									<img id="CSS" class="p-2 h-20 m-auto" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"></img>
+									<img id="CSS" class="p-2 h-20 m-auto" src="https://img.icons8.com/?size=512&id=21278&format=png"></img>
 								</div>
 
 								<div>
@@ -258,6 +263,11 @@ const App = () => {
 								<div>
 									<h1 class="text-sm text-gray-500 italic">GitHub</h1>
 									<img id="GitHub" class="p-2 h-20 m-auto" src="https://img.icons8.com/?size=512&id=12599&format=png"></img>
+								</div>
+
+								<div class="invisible md:hidden">
+									<h1 class="text-sm text-gray-500 italic">VS Code</h1>
+									<img id="VSCode" class="p-2 h-20 m-auto" src="https://img.icons8.com/?size=512&id=9OGIyU8hrxW5&format=png"></img>
 								</div>
 
 								<div>
