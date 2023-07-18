@@ -219,7 +219,7 @@ const App = () => {
 
 
 							<div class="grid grid-cols-3 md:grid-cols-5 gap-2 justify-evenly">
-								
+
 								<div>
 									<h1 class="text-sm text-gray-500 italic">JavaScript</h1>
 									<img id="javascript" class="h-20 m-auto" src="https://img.icons8.com/?size=512&id=108784&format=png"></img>
@@ -277,7 +277,7 @@ const App = () => {
 
 							</div>
 
-						
+
 
 
 
@@ -293,7 +293,7 @@ const App = () => {
 
 
 
-{/* 
+			{/* 
 
 			<section>
 				<div
@@ -345,13 +345,478 @@ const App = () => {
 			</section> */}
 
 
-			<section id="projects" class="bg-gray-100">
+			<section id="projects" class="">
 				<div
 					class="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8"
 				>
 					<div class="mx-auto max-w-lg text-center">
-						<h2 class="text-3xl font-bold sm:text-4xl">Check out some of my work!</h2>
+						<h2 class="text-3xl font-bold sm:text-4xl">Check out some of my work</h2>
 					</div>
+
+
+
+
+					<section>
+						<div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-8 lg:px-8">
+							<div class="max-w-3xl">
+								<a class="text-3xl font-bold underline sm:text-4xl"
+									href="https://turn-key.netlify.app/"
+									target="_blank"
+									>
+									TurnKey
+								</a>
+							</div>
+
+							<div class="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+								<div class="relative h-64 overflow-hidden sm:h-80 lg:h-full">
+									<a
+										href="https://turn-key.netlify.app/"
+										target="_blank"
+									>
+										<img
+											alt="TurnKey"
+											src="https://i.ibb.co/6HtWSF5/Screenshot-2023-06-26-at-2-56-09-PM-2.png"
+											class="absolute inset-0 h-full w-full object-cover"
+										/>
+									</a>
+								</div>
+
+								<div class="">
+									<article class="space-y-4 text-gray-600">
+
+										<div class="flex">
+
+											<a
+												href="https://turn-key.netlify.app/"
+												target="_blank"
+											>
+												<img class="h-10 pr-2" src="https://img.icons8.com/?size=512&id=60664&format=png"></img>
+
+											</a>
+
+
+											<a
+												href="https://github.com/BobbyWhitacre27/TurnKey"
+												target="_blank"
+											>
+												<img class="h-10 pl-2" src="https://img.icons8.com/?size=512&id=12599&format=png"></img>
+
+											</a>
+
+										</div>
+										<p>
+											TurnKey is an online real estate website where users can post properties for sale or for rent. Users may also add photos or edit any of their postings and add comments to any other postings on the site.
+										</p>
+
+										<p>
+											<ol class="grid grid-cols-2">
+												<li>JavaScript</li>
+												<li>React</li>
+												<li>SQL</li>
+												<li>Express</li>
+												<li>HTML</li>
+												<li>CSS</li>
+												<li>TailwindCSS</li>
+												<li>Front-end on Netlify</li>
+												<li>Back-end on Render</li>
+											</ol>
+
+										</p>
+									</article>
+								</div>
+							</div>
+						</div>
+					</section>
+
+
+
+
+
+
+					<section>
+						<div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-8 lg:px-8">
+							<div class="max-w-3xl">
+								<a class="text-3xl font-bold underline sm:text-4xl"
+									href="https://leasinglad.netlify.app/"
+									target="_blank"
+									>
+									LeasingLad.
+								</a>
+							</div>
+
+							<div class="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+								<div class="relative h-64 overflow-hidden sm:h-80 lg:h-full">
+									<a
+										href="https://leasinglad.netlify.app/"
+										target="_blank"
+									>
+										<img
+											alt="LeasingLad"
+											src="https://i.ibb.co/X5nP2cB/Screenshot-2023-04-25-at-5-33-25-PM-2.png"
+											class="absolute inset-0 h-full w-full object-cover"
+										/>
+									</a>
+								</div>
+
+								<div class="">
+									<article class="space-y-4 text-gray-600">
+
+										<div class="flex">
+
+											<a
+												href="https://leasinglad.netlify.app/"
+												target="_blank"
+											>
+												<img class="h-10 pr-2" src="https://img.icons8.com/?size=512&id=60664&format=png"></img>
+
+											</a>
+
+
+											<a
+												href="https://github.com/BobbyWhitacre27/leasing_lad"
+												target="_blank"
+											>
+												<img class="h-10 pl-2 pr-2" src="https://img.icons8.com/?size=512&id=12599&format=png"></img>
+
+											</a>
+
+											<a
+												href="https://www.youtube.com/watch?v=Nwsp7YmKuJM"
+												target="_blank"
+											>
+												<img class="h-10 pl-2" src="https://img.icons8.com/?size=512&id=37326&format=png"></img>
+
+											</a>
+
+										</div>
+										<p>
+										Leasing Lad is a property management software that helps leasing agents keep track of their leasing paperwork. I created this to help myself keep track of my paperwork in my current role.
+										</p>
+
+										<p>
+											<ol class="grid grid-cols-2">
+												<li>JavaScript</li>
+												<li>React</li>
+												<li>SQL</li>
+												<li>Express</li>
+												<li>HTML</li>
+												<li>CSS</li>
+												<li>TailwindCSS</li>
+												<li>Front-end on Netlify</li>
+												<li>Back-end on Render</li>
+											</ol>
+
+										</p>
+									</article>
+								</div>
+							</div>
+						</div>
+					</section>
+
+
+
+
+
+
+					<section>
+						<div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-8 lg:px-8">
+							<div class="max-w-3xl">
+								<a class="text-3xl font-bold underline sm:text-4xl"
+									href="https://ride-stack.netlify.app/"
+									target="_blank"
+									>
+									RideStack
+								</a>
+							</div>
+
+							<div class="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+								<div class="relative h-64 overflow-hidden sm:h-80 lg:h-full">
+									<a
+										href="https://ride-stack.netlify.app/"
+										target="_blank"
+									>
+										<img
+											alt="RideStack"
+											src="https://i.ibb.co/526Zbjs/Screenshot-2023-04-14-at-11-59-33-PM-2.png"
+											class="absolute inset-0 h-full w-full object-cover"
+										/>
+									</a>
+								</div>
+
+								<div class="">
+									<article class="space-y-4 text-gray-600">
+
+										<div class="flex">
+
+											<a
+												href="https://ride-stack.netlify.app/"
+												target="_blank"
+											>
+												<img class="h-10 pr-2" src="https://img.icons8.com/?size=512&id=60664&format=png"></img>
+
+											</a>
+
+
+											<a
+												href="https://github.com/rideStack/RideStack"
+												target="_blank"
+											>
+												<img class="h-10 pl-2 pr-2" src="https://img.icons8.com/?size=512&id=12599&format=png"></img>
+
+											</a>
+
+											<a
+												href="https://www.youtube.com/watch?v=sx_Pr8Szygk"
+												target="_blank"
+											>
+												<img class="h-10 pl-2" src="https://img.icons8.com/?size=512&id=37326&format=png"></img>
+
+											</a>
+
+										</div>
+										<p>
+										RideStack is a luxury all-electric vehicle sales website. Users can create accounts and select electric vehicles to purchase. This website was created on a team as our capstone project for Fullstack Academy.
+										</p>
+
+										<p>
+											<ol class="grid grid-cols-2">
+												<li>JavaScript</li>
+												<li>React</li>
+												<li>SQL</li>
+												<li>Express</li>
+												<li>HTML</li>
+												<li>CSS</li>
+												<li>TailwindCSS</li>
+												<li>Front-end on Netlify</li>
+												<li>Back-end on Render</li>
+											</ol>
+
+										</p>
+									</article>
+								</div>
+							</div>
+						</div>
+					</section>
+
+
+
+					<section>
+						<div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-8 lg:px-8">
+							<div class="max-w-3xl">
+								<a class="text-3xl font-bold underline sm:text-4xl"
+									href="https://masala-house.netlify.app/"
+									target="_blank"
+									>
+									Masala House
+								</a>
+							</div>
+
+							<div class="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+								<div class="relative h-64 overflow-hidden sm:h-80 lg:h-full">
+									<a
+										href="https://masala-house.netlify.app/"
+										target="_blank"
+									>
+										<img
+											alt="Masalahouse"
+											src="https://i.ibb.co/7Q7y57v/Masala-House-Web-Page.png"
+											class="absolute inset-0 h-full w-full object-cover"
+										/>
+									</a>
+								</div>
+
+								<div class="">
+									<article class="space-y-4 text-gray-600">
+
+										<div class="flex">
+
+											<a
+												href="https://masala-house.netlify.app/"
+												target="_blank"
+											>
+												<img class="h-10 pr-2" src="https://img.icons8.com/?size=512&id=60664&format=png"></img>
+
+											</a>
+
+
+											<a
+												href="https://github.com/BobbyWhitacre27/masala_house"
+												target="_blank"
+											>
+												<img class="h-10 pl-2 pr-2" src="https://img.icons8.com/?size=512&id=12599&format=png"></img>
+
+											</a>
+
+										</div>
+										<p>
+										Masala House is a made up indian resturant. Created to practice front-end skills with JavaScript and React.
+										</p>
+
+										<p>
+											<ol class="grid grid-cols-2">
+												<li>JavaScript</li>
+												<li>React</li>
+												<li>HTML</li>
+												<li>CSS</li>
+												<li>TailwindCSS</li>
+												<li></li>
+												<li>Front-end on Netlify</li>
+											</ol>
+
+										</p>
+									</article>
+								</div>
+							</div>
+						</div>
+					</section>
+
+
+
+					<section>
+						<div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-8 lg:px-8">
+							<div class="max-w-3xl">
+								<a class="text-3xl font-bold underline sm:text-4xl"
+									href="https://rent-specials-calculator.netlify.app/"
+									target="_blank"
+									>
+									Rent Specials Calculator
+								</a>
+							</div>
+
+							<div class="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+								<div class="relative h-64 overflow-hidden sm:h-80 lg:h-full">
+									<a
+										href="https://rent-specials-calculator.netlify.app/"
+										target="_blank"
+									>
+										<img
+											alt="Rentspecialcalculator"
+											src="https://i.ibb.co/zrFRq23/Screenshot-2023-04-14-at-11-35-37-PM-2.png"
+											class="absolute inset-0 h-full w-full object-cover"
+										/>
+									</a>
+								</div>
+
+								<div class="">
+									<article class="space-y-4 text-gray-600">
+
+										<div class="flex">
+
+											<a
+												href="https://rent-specials-calculator.netlify.app/"
+												target="_blank"
+											>
+												<img class="h-10 pr-2" src="https://img.icons8.com/?size=512&id=60664&format=png"></img>
+
+											</a>
+
+
+											<a
+												href="https://github.com/BobbyWhitacre27/rent_specials_calculator"
+												target="_blank"
+											>
+												<img class="h-10 pl-2 pr-2" src="https://img.icons8.com/?size=512&id=12599&format=png"></img>
+
+											</a>
+
+										</div>
+										<p>
+										This app was created to assist in my current property management role and quickly calculates rent specials for when I meet with clients.
+										</p>
+
+										<p>
+											<ol class="grid grid-cols-2">
+												<li>JavaScript</li>
+												<li>React</li>
+												<li>HTML</li>
+												<li>CSS</li>
+												<li>TailwindCSS</li>
+												<li></li>
+												<li>Front-end on Netlify</li>
+											</ol>
+
+										</p>
+									</article>
+								</div>
+							</div>
+						</div>
+					</section>
+
+
+
+
+					<section>
+						<div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-8 lg:px-8">
+							<div class="max-w-3xl">
+								<a class="text-3xl font-bold underline sm:text-4xl"
+									href="https://prorationcalculator.netlify.app/"
+									target="_blank"
+									>
+									Rent Proration Calculator
+								</a>
+							</div>
+
+							<div class="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+								<div class="relative h-64 overflow-hidden sm:h-80 lg:h-full">
+									<a
+										href="https://prorationcalculator.netlify.app/"
+										target="_blank"
+									>
+										<img
+											alt="Rentprorationcalculator"
+											src="https://i.ibb.co/THrt68v/Screenshot-2023-04-15-at-12-18-36-AM-2.png"
+											class="absolute inset-0 h-full w-full object-cover"
+										/>
+									</a>
+								</div>
+
+								<div class="">
+									<article class="space-y-4 text-gray-600">
+
+										<div class="flex">
+
+											<a
+												href="https://prorationcalculator.netlify.app/"
+												target="_blank"
+											>
+												<img class="h-10 pr-2" src="https://img.icons8.com/?size=512&id=60664&format=png"></img>
+
+											</a>
+
+
+											<a
+												href="https://github.com/BobbyWhitacre27/proration_calculator"
+												target="_blank"
+											>
+												<img class="h-10 pl-2 pr-2" src="https://img.icons8.com/?size=512&id=12599&format=png"></img>
+
+											</a>
+
+										</div>
+										<p>
+										This app assists in my current property management role to calculate prorated costs for when I put together lease paperwork.
+										</p>
+
+										<p>
+											<ol class="grid grid-cols-2">
+												<li>JavaScript</li>
+												<li>React</li>
+												<li>HTML</li>
+												<li>CSS</li>
+												<li>TailwindCSS</li>
+												<li></li>
+												<li>Front-end on Netlify</li>
+											</ol>
+
+										</p>
+									</article>
+								</div>
+							</div>
+						</div>
+					</section>
+
+
+
 
 
 					{/* <section class="shadow-2xl border border-black rounded-xl bg-white mt-6 sm:mt-16">
@@ -565,7 +1030,7 @@ const App = () => {
 							</div>
 						</div>
 					</section> */}
-
+{/* 
 
 					<div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-2">
 
@@ -697,7 +1162,7 @@ const App = () => {
 						</div>
 
 
-					</div>
+					</div> */}
 
 
 				</div>
@@ -708,7 +1173,7 @@ const App = () => {
 				<div class="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 md:py-6 lg:px-8">
 
 
-					<div class="mt-8 sm:mt-12">
+					<div class="mt-8 sm:mt-8">
 
 
 						<div class="mx-auto max-w-xl text-center">
@@ -758,7 +1223,7 @@ const App = () => {
 			<section id="about">
 				<div class="max-w-screen-xl px-4 py-4 mx-auto sm:py-8 sm:px-6 lg:px-8">
 					<div class="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:items-stretch">
-						<div class="grid p-6 bg-gray-100 rounded place-content-center sm:p-8">
+						<div class="grid p-6 bg-gray-200 rounded place-content-center sm:p-8">
 							<div class="max-w-md mx-auto text-center lg:text-left">
 								<header>
 									<h2 class="text-xl font-bold sm:text-5xl">About me</h2>
@@ -886,7 +1351,7 @@ const App = () => {
 
 
 
-			<footer aria-label="Site Footer" class="bg-gray-100 mt-12">
+			<footer aria-label="Site Footer" class=" mt-12">
 				<div class="mx-auto max-w-5xl px-4 py-8 sm:px-6 lg:px-8 text-xl">
 					<ul class="mt-4 mb-4  flex justify-center align-center gap-6 md:gap-8">
 						<li>
