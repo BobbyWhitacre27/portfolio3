@@ -138,8 +138,115 @@ const App = () => {
 
 
 
+			<section class="overflow-hidden bg-gray-100 sm:grid sm:grid-cols-2">
+				<div class="p-8 md:p-12 lg:px-16 lg:py-24">
+					<div
+						class="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right"
+					>
+						<h2 class="text-3xl font-bold text-gray-900 sm:text-4xl md:text-6xl">BOBBY WHITACRE</h2>
 
-			<section
+
+						<p class="mt-4 text-gray-600 sm:text-xl">
+							Welcome to my Portfolio! I'm a <span class="font-bold text-black">Full-Stack Developer</span>  in the Washington D.C. area.
+						</p>
+						<div class="mx-auto max-w-5xl px-4 py- sm:px-6 lg:px-8 text-xl">
+							<ul class="mt-4 mb-4  flex justify-center align-center gap-6 md:gap-8">
+								<li>
+									<a
+										href="https://www.linkedin.com/in/bobby-whitacre/"
+										rel="noreferrer"
+										target="_blank"
+										class="text-white underline"
+									>
+										<img class="h-16" src="https://img.icons8.com/?size=512&id=8808&format=png"></img>
+
+									</a>
+								</li>
+
+								<li>
+									<a
+										href="mailto: bobby.whitacre27@gmail.com"
+										rel="noreferrer"
+										target="_blank"
+										class="text-white underline"
+									>
+										<img class="h-16" src="https://img.icons8.com/?size=512&id=12623&format=png"></img>
+
+									</a>
+								</li>
+
+
+
+								<li>
+									<a
+										href="https://github.com/BobbyWhitacre27"
+										rel="noreferrer"
+										target="_blank"
+										class="text-white underline"
+									>
+
+										<img class="h-16" src="https://img.icons8.com/?size=512&id=12599&format=png"></img>
+
+									</a>
+								</li>
+
+							</ul>
+						</div>
+
+					</div>
+				</div>
+
+				<img
+					alt="Student"
+					src="https://images.pexels.com/photos/2312369/pexels-photo-2312369.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+					class="h-56 w-full object-cover sm:h-full"
+				/>
+			</section>
+
+
+
+			{/* <section class=" bg-gray-200">
+				<div
+					class="mx-auto max-w-screen-xl px-4 py-6 sm:py-6 sm:px-6 lg:py-6 lg:px-8"
+				>
+					<div class="grid gap-8 md:grid-cols-2 md:gap-16">
+						<div
+							class="relative overflow-hidden rounded-lg md:order-last md:h-full"
+						>
+							<div
+								class="bg-black rounded-full h-full pr-8"
+							>
+
+							</div>
+							<img
+								alt="bobby"
+								src={bobbyimage}
+								class="absolute inset-0 h-72 m-auto rounded-full object-cover p-24 sm:h-fit"
+							/>
+						</div>
+
+						<div class="lg:py-24">
+							<h2 class="text-3xl font-bold sm:text-8xl">Welcome to my Portfolio</h2>
+
+							<p class="mt-4 text-xl text-gray-600">
+							Hello! I'm Bobby Whitacre, a <span class="font-bold text-black">Full-Stack Developer</span>  in the Washington D.C. area.
+							</p>
+
+						</div>
+					</div>
+				</div>
+			</section> */}
+
+
+
+
+
+
+
+
+
+
+			{/* <section
 				class="overflow-hidden bg-[url(https://images.pexels.com/photos/251225/pexels-photo-251225.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)] bg-cover bg-top bg-no-repeat bg-center"
 			>
 				<div class="bg-black/25 p-8 md:p-12 lg:px-16 lg:py-12">
@@ -148,7 +255,7 @@ const App = () => {
 						<h2 class="font-bold hidden pt-12 text-white sm:text-4xl md:text-4xl lg:text-6xl"></h2>
 					</div>
 				</div>
-			</section>
+			</section> */}
 
 
 
@@ -210,11 +317,7 @@ const App = () => {
 
 
 						<div class="lg:py-6">
-							<h2 class="text-3xl font-bold sm:text-6xl">Welcome to my Portfolio</h2>
-
-							<p class="mt-4 text-gray-600 sm:text-xl">
-								Hello! I'm Bobby Whitacre, a <span class="font-bold text-black">Full-Stack Developer</span>  in the Washington D.C. area.
-							</p>
+				
 							<h2 class="text-3xl font-bold py-8 sm:text-4xl">Skills</h2>
 
 
@@ -347,22 +450,22 @@ const App = () => {
 
 			<section id="projects" class="">
 				<div
-					class="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8"
+					class="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-8 lg:px-8"
 				>
 					<div class="mx-auto max-w-lg text-center">
-						<h2 class="text-3xl font-bold sm:text-4xl">Check out some of my work</h2>
+						<h2 class="text-3xl font-bold sm:text-4xl">Recent work</h2>
 					</div>
 
 
 
 
 					<section>
-						<div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-8 lg:px-8">
+						<div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-8 lg:px-8 rounded-xl my-4 bg-gray-100">
 							<div class="max-w-3xl">
 								<a class="text-3xl font-bold underline sm:text-4xl"
 									href="https://turn-key.netlify.app/"
 									target="_blank"
-									>
+								>
 									TurnKey
 								</a>
 							</div>
@@ -434,12 +537,12 @@ const App = () => {
 
 
 					<section>
-						<div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-8 lg:px-8">
+						<div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-8 lg:px-8 rounded-xl my-4 bg-gray-100">
 							<div class="max-w-3xl">
 								<a class="text-3xl font-bold underline sm:text-4xl"
 									href="https://leasinglad.netlify.app/"
 									target="_blank"
-									>
+								>
 									LeasingLad.
 								</a>
 							</div>
@@ -490,7 +593,7 @@ const App = () => {
 
 										</div>
 										<p>
-										Leasing Lad is a property management software that helps leasing agents keep track of their leasing paperwork. I created this to help myself keep track of my paperwork in my current role.
+											Leasing Lad is a property management software that helps leasing agents keep track of their leasing paperwork. I created this to help myself keep track of my paperwork in my current role.
 										</p>
 
 										<p>
@@ -519,12 +622,12 @@ const App = () => {
 
 
 					<section>
-						<div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-8 lg:px-8">
+						<div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-8 lg:px-8 rounded-xl my-4 bg-gray-100">
 							<div class="max-w-3xl">
 								<a class="text-3xl font-bold underline sm:text-4xl"
 									href="https://ride-stack.netlify.app/"
 									target="_blank"
-									>
+								>
 									RideStack
 								</a>
 							</div>
@@ -575,7 +678,7 @@ const App = () => {
 
 										</div>
 										<p>
-										RideStack is a luxury all-electric vehicle sales website. Users can create accounts and select electric vehicles to purchase. This website was created on a team as our capstone project for Fullstack Academy.
+											RideStack is a luxury all-electric vehicle sales website. Users can create accounts and select electric vehicles to purchase. This website was created on a team as our capstone project for Fullstack Academy.
 										</p>
 
 										<p>
@@ -601,12 +704,12 @@ const App = () => {
 
 
 					<section>
-						<div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-8 lg:px-8">
+						<div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-8 lg:px-8 rounded-xl my-4 bg-gray-100">
 							<div class="max-w-3xl">
 								<a class="text-3xl font-bold underline sm:text-4xl"
 									href="https://masala-house.netlify.app/"
 									target="_blank"
-									>
+								>
 									Masala House
 								</a>
 							</div>
@@ -649,7 +752,7 @@ const App = () => {
 
 										</div>
 										<p>
-										Masala House is a made up indian resturant. Created to practice front-end skills with JavaScript and React.
+											Masala House is a made up indian resturant. Created to practice front-end skills with JavaScript and React.
 										</p>
 
 										<p>
@@ -673,12 +776,12 @@ const App = () => {
 
 
 					<section>
-						<div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-8 lg:px-8">
+						<div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-8 lg:px-8 rounded-xl my-4 bg-gray-100">
 							<div class="max-w-3xl">
 								<a class="text-3xl font-bold underline sm:text-4xl"
 									href="https://rent-specials-calculator.netlify.app/"
 									target="_blank"
-									>
+								>
 									Rent Specials Calculator
 								</a>
 							</div>
@@ -721,7 +824,7 @@ const App = () => {
 
 										</div>
 										<p>
-										This app was created to assist in my current property management role and quickly calculates rent specials for when I meet with clients.
+											This app was created to assist in my current property management role and quickly calculates rent specials for when I meet with clients.
 										</p>
 
 										<p>
@@ -746,12 +849,12 @@ const App = () => {
 
 
 					<section>
-						<div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-8 lg:px-8">
+						<div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-8 lg:px-8 rounded-xl my-4 bg-gray-100">
 							<div class="max-w-3xl">
 								<a class="text-3xl font-bold underline sm:text-4xl"
 									href="https://prorationcalculator.netlify.app/"
 									target="_blank"
-									>
+								>
 									Rent Proration Calculator
 								</a>
 							</div>
@@ -794,7 +897,7 @@ const App = () => {
 
 										</div>
 										<p>
-										This app assists in my current property management role to calculate prorated costs for when I put together lease paperwork.
+											This app assists in my current property management role to calculate prorated costs for when I put together lease paperwork.
 										</p>
 
 										<p>
@@ -1030,7 +1133,7 @@ const App = () => {
 							</div>
 						</div>
 					</section> */}
-{/* 
+					{/* 
 
 					<div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-2">
 
@@ -1223,7 +1326,7 @@ const App = () => {
 			<section id="about">
 				<div class="max-w-screen-xl px-4 py-4 mx-auto sm:py-8 sm:px-6 lg:px-8">
 					<div class="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:items-stretch">
-						<div class="grid p-6 bg-gray-200 rounded place-content-center sm:p-8">
+						<div class="grid p-6 bg-gray-100 rounded place-content-center sm:p-8">
 							<div class="max-w-md mx-auto text-center lg:text-left">
 								<header>
 									<h2 class="text-xl font-bold sm:text-5xl">About me</h2>
@@ -1279,7 +1382,7 @@ const App = () => {
 
 
 			<section id="contact">
-				<div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 lg:w-1/2">
+				<div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 lg:w-3/4">
 
 
 
