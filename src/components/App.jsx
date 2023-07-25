@@ -276,7 +276,7 @@ const App = () => {
 
 
 
-			<section>
+			<section id="projects">
 				<div class="max-w-screen-xl px-4 py-6 mx-auto sm:px-6 sm:py-6 lg:px-8">
 					<header>
 						<div class="mx-auto max-w-lg text-center">
