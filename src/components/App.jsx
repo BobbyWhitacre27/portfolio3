@@ -616,11 +616,11 @@ const App = () => {
 				<div class="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 md:py-6 lg:px-8">
 
 
-					<div class="mt-8 sm:mt-8">
+					<div class="mt-0 sm:mt-8">
 
 
 						<div class="mx-auto max-w-xl text-center">
-							<h2 class="text-3xl font-bold italic sm:text-6xl">
+							<h2 class="text-4xl font-bold sm:text-6xl">
 								Education
 							</h2>
 						</div>
