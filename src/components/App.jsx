@@ -3,6 +3,9 @@ import emailjs from 'emailjs-com'
 import portfolioheader from '../photos/portfolioheader.png'
 import bobbyimage from '../photos/bobbyimage.jpg'
 import bobbyheadshot from '../photos/bobbyheadshot.png'
+import link from '../photos/link.png'
+import github from '../photos/github.png'
+import youtube from '../photos/youtube.png'
 import '../style/App.css';
 
 const App = () => {
@@ -107,27 +110,6 @@ const App = () => {
 
 							<div class="flex items-center gap-4">
 
-								{/* 
-								<div class="block md:hidden">
-									<button
-										class="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75"
-									>
-										<svg
-											xmlns="http://www.w3.org/2000/svg"
-											class="h-5 w-5"
-											fill="none"
-											viewBox="0 0 24 24"
-											stroke="currentColor"
-											stroke-width="2"
-										>
-											<path
-												stroke-linecap="round"
-												stroke-linejoin="round"
-												d="M4 6h16M4 12h16M4 18h16"
-											/>
-										</svg>
-									</button>
-								</div> */}
 							</div>
 						</div>
 					</div>
@@ -147,8 +129,9 @@ const App = () => {
 
 
 						<p class="mt-4 text-gray-600 sm:text-xl">
-							Welcome to my Portfolio! I'm a <span class="font-bold text-black">Full-Stack Developer</span>  in the Washington D.C. area.
+							A <span class="font-bold text-black">Full-Stack Developer</span>  in the Washington D.C. area.
 						</p>
+
 						<div class="mx-auto max-w-5xl px-4 py- sm:px-6 lg:px-8 text-xl">
 							<ul class="mt-4 mb-4  flex justify-center align-center gap-6 md:gap-8">
 								<li>
@@ -205,109 +188,6 @@ const App = () => {
 
 
 
-			{/* <section class=" bg-gray-200">
-				<div
-					class="mx-auto max-w-screen-xl px-4 py-6 sm:py-6 sm:px-6 lg:py-6 lg:px-8"
-				>
-					<div class="grid gap-8 md:grid-cols-2 md:gap-16">
-						<div
-							class="relative overflow-hidden rounded-lg md:order-last md:h-full"
-						>
-							<div
-								class="bg-black rounded-full h-full pr-8"
-							>
-
-							</div>
-							<img
-								alt="bobby"
-								src={bobbyimage}
-								class="absolute inset-0 h-72 m-auto rounded-full object-cover p-24 sm:h-fit"
-							/>
-						</div>
-
-						<div class="lg:py-24">
-							<h2 class="text-3xl font-bold sm:text-8xl">Welcome to my Portfolio</h2>
-
-							<p class="mt-4 text-xl text-gray-600">
-							Hello! I'm Bobby Whitacre, a <span class="font-bold text-black">Full-Stack Developer</span>  in the Washington D.C. area.
-							</p>
-
-						</div>
-					</div>
-				</div>
-			</section> */}
-
-
-
-
-
-
-
-
-
-
-			{/* <section
-				class="overflow-hidden bg-[url(https://images.pexels.com/photos/251225/pexels-photo-251225.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)] bg-cover bg-top bg-no-repeat bg-center"
-			>
-				<div class="bg-black/25 p-8 md:p-12 lg:px-16 lg:py-12">
-					<div class="flex justify-evenly text-left">
-						<img class="rounded-full h-36 sm:h-64 border-white border-4 sm:m-none" src={bobbyheadshot} ></img>
-						<h2 class="font-bold hidden pt-12 text-white sm:text-4xl md:text-4xl lg:text-6xl"></h2>
-					</div>
-				</div>
-			</section> */}
-
-
-
-
-			{/* <nav
-				aria-label="Site Nav"
-				class=" flex text-sm md:text-2xl items-center justify-center bg-gray-100"
-			>
-
-				<ul class="flex items-center gap-2 font-bold">
-					<li class="hover:bg-black hover:text-white py-4">
-						<a class="rounded-lg px-3 py-2" href="#projects"> Projects </a>
-					</li>
-
-					<li class="hover:bg-black hover:text-white py-4">
-						<a class="rounded-lg px-3 py-2" href="#education"> Education </a>
-					</li>
-
-					<li class="hover:bg-black hover:text-white py-4">
-						<a class="rounded-lg px-3 py-2" href="#about"> About </a>
-					</li>
-
-					<li class="hover:bg-black hover:text-white py-4">
-						<a class="rounded-lg px-3 py-2" href="#contact"> Contact </a>
-					</li>
-				</ul>
-			</nav> */}
-
-
-			{/* <div>
-
-				<div class="">
-					<img src="https://images.pexels.com/photos/251225/pexels-photo-251225.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="brightness-50 object-cover h-72 w-full" />
-				</div>
-
-				<div class="absolute inset-x-0 top-2 mt-8">
-					<div class="flex lg:top-10 md:top-10 sm:top-10 justify-center content-center text-left ">
-						<div class="w-3/4">
-							<h1 class="text-6xl font-bold text-white mt-14 ml-4">Welcome to my Portfolio</h1>
-							<p class="mt-4 text-xl text-white font-bold">
-								Hello! I'm Bobby Whitacre, a <span class="font-bold italic text-white">Full-Stack Developer</span> in the Washington D.C. area.
-							</p>
-						</div>
-						<div class="text-center w-1/2">
-							<img class="mt-16 h-52 rounded-full m-auto" src={bobbyheadshot}></img>
-
-						</div>
-					</div>
-				</div>
-			</div> */}
-
-
 
 			<section>
 				<div
@@ -317,8 +197,8 @@ const App = () => {
 
 
 						<div class="lg:py-6">
-				
-							<h2 class="text-3xl font-bold py-8 sm:text-4xl">Skills</h2>
+
+							<h2 class="text-3xl font-bold py-8 sm:text-4xl">Technical Skills</h2>
 
 
 							<div class="grid grid-cols-3 md:grid-cols-5 gap-2 justify-evenly">
@@ -396,880 +276,340 @@ const App = () => {
 
 
 
-			{/* 
-
 			<section>
-				<div
-					class="mx-auto max-w-screen-xl px-4 py-4 sm:py-4 sm:px-6 lg:py-4 lg:px-8"
-				>
-					<div class="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-16">
-						<div
-							class="relative h-64 overflow-hidden rounded-[60px] sm:h-80 md:order-last md:h-full md:w-full"
-						>
-							<img
-								alt="Bobby"
-								src={bobbyimage}
-								class="absolute inset-0 h-full w-full object-cover"
-							/>
+				<div class="max-w-screen-xl px-4 py-6 mx-auto sm:px-6 sm:py-6 lg:px-8">
+					<header>
+						<div class="mx-auto max-w-lg text-center">
+							<h2 class="text-3xl font-bold sm:text-4xl">Recent Work</h2>
 						</div>
+					</header>
 
-						<div class="lg:py-24">
-							<h2 class="text-3xl font-bold sm:text-8xl">Welcome to my Portfolio</h2>
-
-							<p class="mt-4 text-gray-600 sm:text-xl">
-								Hello! I'm Bobby Whitacre, a <span class="font-bold italic text-black">Full-Stack Developer</span>  in the Washington D.C. area.
-							</p>
+					<ul class="grid gap-4 mt-8 sm:grid-cols-2 lg:grid-cols-3">
 
 
 
-							<h2 class="text-3xl font-bold py-8 sm:text-4xl">Skills</h2>
-							<h2 class="text-3xl font-bold sm:text-xl">JavaScript, React, Express, PostgreSQL, SQL, HTML, CSS, Tailwind CSS, Node.js, GitHub, Netlify & Render</h2>
-
-
-							<div class="grid grid-cols-5 gap-2">
-								<img id="javascript" class="h-20" src="https://img.icons8.com/?size=512&id=108784&format=png"></img>
-								<img id="react" class="h-20" src="https://img.icons8.com/?size=512&id=NfbyHexzVEDk&format=png"></img>
-								<img id="postgres" class=" h-20" src="https://img.icons8.com/?size=512&id=36440&format=png"></img>
-								<img id="sql" class=" h-20" src="https://media.istockphoto.com/id/1298834585/vector/sql-icon-major-database-format-vector-icon-illustration.jpg?s=612x612&w=0&k=20&c=GibfLwPw_hjsQMVQUMf-GQIzrp3Bkh_KWOoN5WpOiPI="></img>
-								<img id="HTML" class="h-20" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png"></img>
-								<img id="CSS" class=" h-20" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"></img>
-								<img id="TailwindCSS" class=" h-20 p-2" src="data:image/png;base64,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"></img>
-							</div>
-
-
-
-
-
-
-
-						</div>
-					</div>
-				</div>
-			</section> */}
-
-
-			<section id="projects" class="">
-				<div
-					class="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-8 lg:px-8"
-				>
-					<div class="mx-auto max-w-lg text-center">
-						<h2 class="text-3xl font-bold sm:text-4xl">Recent work</h2>
-					</div>
-
-
-
-
-					<section>
-						<div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-8 lg:px-8 rounded-xl my-4 bg-gray-100">
-							<div class="max-w-3xl">
-								<a class="text-3xl font-bold underline sm:text-4xl"
-									href="https://turn-key.netlify.app/"
-									target="_blank"
-								>
+						<li>
+							<a
+								href="https://turn-key.netlify.app/"
+								target="_blank"
+								class="relative block overflow-hidden group">
+								<img
+									src="https://images.pexels.com/photos/2128329/pexels-photo-2128329.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+									alt=""
+									class="relative h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px] brightness-75 group-hover:brightness-50"
+								/>
+								<h1 class="absolute top-1/2 left-1/2 transition duration-500 transform -translate-x-1/2 -translate-y-1/2 text-white text-5xl font-bold group-hover:hidden">
 									TurnKey
-								</a>
-							</div>
+								</h1>
+								<div class="absolute top-1/3 left-1/3 transition duration-500 transform -translate-x-1/3 -translate-y-1/3 text-white invisible group-hover:visible">
 
-							<div class="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
-								<div class="relative h-64 overflow-hidden sm:h-80 lg:h-full">
-									<a
-										href="https://turn-key.netlify.app/"
-										target="_blank"
-									>
-										<img
-											alt="TurnKey"
-											src="https://i.ibb.co/6HtWSF5/Screenshot-2023-06-26-at-2-56-09-PM-2.png"
-											class="absolute inset-0 h-full w-full object-cover"
-										/>
-									</a>
+									<h1 class="text-3xl font-bold mt-4">TurnKey</h1>
+									<p class="text-xl ">An online real estate website.</p>
+
+									<div class="flex">
+										<a
+											href="https://turn-key.netlify.app/"
+											target="_blank"
+										>
+											<img class="h-8 pr-2" src={link}></img>
+										</a>
+										<a
+											href="https://github.com/BobbyWhitacre27/TurnKey"
+											target="_blank"
+										>
+											<img class="h-9 pl-2" src={github}></img>
+										</a>
+									</div>
+
+									<ul class="mt-4">
+										<li>Full-Stack Project</li>
+										<li>JavaScript</li>
+										<li>React</li>
+										<li>SQL</li>
+										<li>Express</li>
+										<li>HTML</li>
+										<li>CSS</li>
+										<li>TailwindCSS</li>
+									</ul>
 								</div>
 
-								<div class="">
-									<article class="space-y-4 text-gray-600">
-
-										<div class="flex">
-
-											<a
-												href="https://turn-key.netlify.app/"
-												target="_blank"
-											>
-												<img class="h-10 pr-2" src="https://img.icons8.com/?size=512&id=60664&format=png"></img>
-
-											</a>
-
-
-											<a
-												href="https://github.com/BobbyWhitacre27/TurnKey"
-												target="_blank"
-											>
-												<img class="h-10 pl-2" src="https://img.icons8.com/?size=512&id=12599&format=png"></img>
-
-											</a>
-
-										</div>
-										<p>
-											TurnKey is an online real estate website where users can post properties for sale or for rent. Users may also add photos or edit any of their postings and add comments to any other postings on the site.
-										</p>
-
-										<p>
-											<ol class="grid grid-cols-2">
-												<li>JavaScript</li>
-												<li>React</li>
-												<li>SQL</li>
-												<li>Express</li>
-												<li>HTML</li>
-												<li>CSS</li>
-												<li>TailwindCSS</li>
-												<li>Front-end on Netlify</li>
-												<li>Back-end on Render</li>
-											</ol>
-
-										</p>
-									</article>
-								</div>
-							</div>
-						</div>
-					</section>
+							</a>
+						</li>
 
 
 
 
-
-
-					<section>
-						<div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-8 lg:px-8 rounded-xl my-4 bg-gray-100">
-							<div class="max-w-3xl">
-								<a class="text-3xl font-bold underline sm:text-4xl"
-									href="https://leasinglad.netlify.app/"
-									target="_blank"
-								>
+						<li>
+							<a
+								href="https://leasinglad.netlify.app/"
+								target="_blank"
+								class="relative block overflow-hidden group">
+								<img
+									src="https://images.pexels.com/photos/7641842/pexels-photo-7641842.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+									alt=""
+									class="relative h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px] brightness-75 group-hover:brightness-50"
+								/>
+								<h1 class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-5xl font-bold group-hover:hidden">
 									LeasingLad.
-								</a>
-							</div>
+								</h1>
 
-							<div class="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
-								<div class="relative h-64 overflow-hidden sm:h-80 lg:h-full">
-									<a
-										href="https://leasinglad.netlify.app/"
-										target="_blank"
-									>
-										<img
-											alt="LeasingLad"
-											src="https://i.ibb.co/X5nP2cB/Screenshot-2023-04-25-at-5-33-25-PM-2.png"
-											class="absolute inset-0 h-full w-full object-cover"
-										/>
-									</a>
+								<div class="absolute top-1/3 left-1/3 transition duration-500 transform -translate-x-1/3 -translate-y-1/3 text-white invisible group-hover:visible">
+
+									<h1 class="text-3xl font-bold mt-4">LeasingLad.</h1>
+									<p class="text-xl ">Property management software.</p>
+
+									<div class="flex">
+										<a
+											href="https://leasinglad.netlify.app/"
+											target="_blank"
+										>
+											<img class="h-8 pr-2" src={link}></img>
+										</a>
+										<a
+											href="https://github.com/BobbyWhitacre27/leasing_lad"
+											target="_blank"
+										>
+											<img class="h-9 pl-2" src={github}></img>
+										</a>
+										<a
+											href="https://www.youtube.com/watch?v=Nwsp7YmKuJM"
+											target="_blank"
+										>
+											<img class="h-9 pl-4" src={youtube}></img>
+										</a>
+									</div>
+
+									<ul class="mt-4">
+										<li>Full-Stack Project</li>
+										<li>JavaScript</li>
+										<li>React</li>
+										<li>SQL</li>
+										<li>Express</li>
+										<li>HTML</li>
+										<li>CSS</li>
+										<li>TailwindCSS</li>
+									</ul>
 								</div>
 
-								<div class="">
-									<article class="space-y-4 text-gray-600">
-
-										<div class="flex">
-
-											<a
-												href="https://leasinglad.netlify.app/"
-												target="_blank"
-											>
-												<img class="h-10 pr-2" src="https://img.icons8.com/?size=512&id=60664&format=png"></img>
-
-											</a>
-
-
-											<a
-												href="https://github.com/BobbyWhitacre27/leasing_lad"
-												target="_blank"
-											>
-												<img class="h-10 pl-2 pr-2" src="https://img.icons8.com/?size=512&id=12599&format=png"></img>
-
-											</a>
-
-											<a
-												href="https://www.youtube.com/watch?v=Nwsp7YmKuJM"
-												target="_blank"
-											>
-												<img class="h-10 pl-2" src="https://img.icons8.com/?size=512&id=37326&format=png"></img>
-
-											</a>
-
-										</div>
-										<p>
-											Leasing Lad is a property management software that helps leasing agents keep track of their leasing paperwork. I created this to help myself keep track of my paperwork in my current role.
-										</p>
-
-										<p>
-											<ol class="grid grid-cols-2">
-												<li>JavaScript</li>
-												<li>React</li>
-												<li>SQL</li>
-												<li>Express</li>
-												<li>HTML</li>
-												<li>CSS</li>
-												<li>TailwindCSS</li>
-												<li>Front-end on Netlify</li>
-												<li>Back-end on Render</li>
-											</ol>
-
-										</p>
-									</article>
-								</div>
-							</div>
-						</div>
-					</section>
 
 
 
+							</a>
+						</li>
 
 
-
-					<section>
-						<div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-8 lg:px-8 rounded-xl my-4 bg-gray-100">
-							<div class="max-w-3xl">
-								<a class="text-3xl font-bold underline sm:text-4xl"
-									href="https://ride-stack.netlify.app/"
-									target="_blank"
-								>
+						<li>
+							<a
+								href="https://ride-stack.netlify.app/"
+								target="_blank"
+								class="relative block overflow-hidden group">
+								<img
+									src="https://images.pexels.com/photos/9800029/pexels-photo-9800029.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+									alt=""
+									class="relative h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px] brightness-75 group-hover:brightness-50"
+								/>
+								<h1 class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-5xl font-bold group-hover:hidden">
 									RideStack
-								</a>
-							</div>
+								</h1>
+								<div class="absolute top-1/3 left-1/3 transition duration-500 transform -translate-x-1/3 -translate-y-1/3 text-white invisible group-hover:visible">
 
-							<div class="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
-								<div class="relative h-64 overflow-hidden sm:h-80 lg:h-full">
-									<a
-										href="https://ride-stack.netlify.app/"
-										target="_blank"
-									>
-										<img
-											alt="RideStack"
-											src="https://i.ibb.co/526Zbjs/Screenshot-2023-04-14-at-11-59-33-PM-2.png"
-											class="absolute inset-0 h-full w-full object-cover"
-										/>
-									</a>
+									<h1 class="text-3xl font-bold mt-4">RideStack</h1>
+									<p class="text-xl ">Electric vehicle sales website.</p>
+
+									<div class="flex">
+										<a
+											href="https://ride-stack.netlify.app/"
+											target="_blank"
+										>
+											<img class="h-8 pr-2" src={link}></img>
+										</a>
+										<a
+											href="https://github.com/rideStack/RideStack"
+											target="_blank"
+										>
+											<img class="h-9 pl-2" src={github}></img>
+										</a>
+										<a
+											href="https://www.youtube.com/watch?v=sx_Pr8Szygk"
+											target="_blank"
+										>
+											<img class="h-9 pl-4" src={youtube}></img>
+										</a>
+									</div>
+
+									<ul class="mt-4">
+										<li>Full-Stack Project</li>
+										<li>JavaScript</li>
+										<li>React</li>
+										<li>SQL</li>
+										<li>Express</li>
+										<li>HTML</li>
+										<li>CSS</li>
+										<li>TailwindCSS</li>
+									</ul>
 								</div>
 
-								<div class="">
-									<article class="space-y-4 text-gray-600">
-
-										<div class="flex">
-
-											<a
-												href="https://ride-stack.netlify.app/"
-												target="_blank"
-											>
-												<img class="h-10 pr-2" src="https://img.icons8.com/?size=512&id=60664&format=png"></img>
-
-											</a>
 
 
-											<a
-												href="https://github.com/rideStack/RideStack"
-												target="_blank"
-											>
-												<img class="h-10 pl-2 pr-2" src="https://img.icons8.com/?size=512&id=12599&format=png"></img>
-
-											</a>
-
-											<a
-												href="https://www.youtube.com/watch?v=sx_Pr8Szygk"
-												target="_blank"
-											>
-												<img class="h-10 pl-2" src="https://img.icons8.com/?size=512&id=37326&format=png"></img>
-
-											</a>
-
-										</div>
-										<p>
-											RideStack is a luxury all-electric vehicle sales website. Users can create accounts and select electric vehicles to purchase. This website was created on a team as our capstone project for Fullstack Academy.
-										</p>
-
-										<p>
-											<ol class="grid grid-cols-2">
-												<li>JavaScript</li>
-												<li>React</li>
-												<li>SQL</li>
-												<li>Express</li>
-												<li>HTML</li>
-												<li>CSS</li>
-												<li>TailwindCSS</li>
-												<li>Front-end on Netlify</li>
-												<li>Back-end on Render</li>
-											</ol>
-
-										</p>
-									</article>
-								</div>
-							</div>
-						</div>
-					</section>
+							</a>
+						</li>
 
 
 
-					<section>
-						<div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-8 lg:px-8 rounded-xl my-4 bg-gray-100">
-							<div class="max-w-3xl">
-								<a class="text-3xl font-bold underline sm:text-4xl"
-									href="https://masala-house.netlify.app/"
-									target="_blank"
-								>
+						<li>
+							<a
+								href="https://masala-house.netlify.app/"
+								target="_blank"
+								class="relative block overflow-hidden group">
+								<img
+									src="https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+									alt=""
+									class="relative h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px] brightness-75 group-hover:brightness-50"
+								/>
+								<h1 class="absolute text-center top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-5xl font-bold group-hover:hidden">
 									Masala House
-								</a>
-							</div>
+								</h1>
+								<div class="absolute top-1/3 left-1/3 transition duration-500 transform -translate-x-1/3 -translate-y-1/3 text-white invisible group-hover:visible">
 
-							<div class="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
-								<div class="relative h-64 overflow-hidden sm:h-80 lg:h-full">
-									<a
-										href="https://masala-house.netlify.app/"
-										target="_blank"
-									>
-										<img
-											alt="Masalahouse"
-											src="https://i.ibb.co/7Q7y57v/Masala-House-Web-Page.png"
-											class="absolute inset-0 h-full w-full object-cover"
-										/>
-									</a>
+									<h1 class="text-3xl font-bold mt-4">Masala House</h1>
+									<p class="text-xl ">Fictional Indian restaurant website.</p>
+
+									<div class="flex">
+										<a
+											href="https://masala-house.netlify.app/"
+											target="_blank"
+										>
+											<img class="h-8 pr-2" src={link}></img>
+										</a>
+										<a
+											href="https://github.com/BobbyWhitacre27/masala_house"
+											target="_blank"
+										>
+											<img class="h-9 pl-2" src={github}></img>
+										</a>
+									</div>
+
+									<ul class="mt-4">
+										<li>Front-End Project</li>
+										<li>JavaScript</li>
+										<li>React</li>
+										<li>HTML</li>
+										<li>CSS</li>
+										<li>TailwindCSS</li>
+									</ul>
 								</div>
 
-								<div class="">
-									<article class="space-y-4 text-gray-600">
-
-										<div class="flex">
-
-											<a
-												href="https://masala-house.netlify.app/"
-												target="_blank"
-											>
-												<img class="h-10 pr-2" src="https://img.icons8.com/?size=512&id=60664&format=png"></img>
-
-											</a>
-
-
-											<a
-												href="https://github.com/BobbyWhitacre27/masala_house"
-												target="_blank"
-											>
-												<img class="h-10 pl-2 pr-2" src="https://img.icons8.com/?size=512&id=12599&format=png"></img>
-
-											</a>
-
-										</div>
-										<p>
-											Masala House is a made up indian resturant. Created to practice front-end skills with JavaScript and React.
-										</p>
-
-										<p>
-											<ol class="grid grid-cols-2">
-												<li>JavaScript</li>
-												<li>React</li>
-												<li>HTML</li>
-												<li>CSS</li>
-												<li>TailwindCSS</li>
-												<li></li>
-												<li>Front-end on Netlify</li>
-											</ol>
-
-										</p>
-									</article>
-								</div>
-							</div>
-						</div>
-					</section>
+							</a>
+						</li>
 
 
 
-					<section>
-						<div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-8 lg:px-8 rounded-xl my-4 bg-gray-100">
-							<div class="max-w-3xl">
-								<a class="text-3xl font-bold underline sm:text-4xl"
-									href="https://rent-specials-calculator.netlify.app/"
-									target="_blank"
-								>
+						<li>
+							<a
+								href="https://rent-specials-calculator.netlify.app/"
+								target="_blank"
+								class="relative block overflow-hidden group">
+								<img
+									src="https://images.pexels.com/photos/323705/pexels-photo-323705.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+									alt=""
+									class="relative h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px] brightness-75 group-hover:brightness-50"
+								/>
+								<h1 class="absolute text-center top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-5xl font-bold group-hover:hidden">
 									Rent Specials Calculator
-								</a>
-							</div>
+								</h1>
+								<div class="absolute top-1/3 left-1/3 transition duration-500 transform -translate-x-1/3 -translate-y-1/3 text-white invisible group-hover:visible">
 
-							<div class="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
-								<div class="relative h-64 overflow-hidden sm:h-80 lg:h-full">
-									<a
-										href="https://rent-specials-calculator.netlify.app/"
-										target="_blank"
-									>
-										<img
-											alt="Rentspecialcalculator"
-											src="https://i.ibb.co/zrFRq23/Screenshot-2023-04-14-at-11-35-37-PM-2.png"
-											class="absolute inset-0 h-full w-full object-cover"
-										/>
-									</a>
+									<h1 class="text-3xl font-bold mt-4">Rent Specials Calculator</h1>
+									<p class="text-xl ">Calculates average rent when provided a special.</p>
+
+									<div class="flex">
+										<a
+											href="https://rent-specials-calculator.netlify.app/"
+											target="_blank"
+										>
+											<img class="h-8 pr-2" src={link}></img>
+										</a>
+										<a
+											href="https://github.com/BobbyWhitacre27/rent_specials_calculator"
+											target="_blank"
+										>
+											<img class="h-9 pl-2" src={github}></img>
+										</a>
+									</div>
+
+									<ul class="mt-4">
+										<li>Front-End Project</li>
+										<li>JavaScript</li>
+										<li>React</li>
+										<li>HTML</li>
+										<li>CSS</li>
+										<li>TailwindCSS</li>
+									</ul>
 								</div>
 
-								<div class="">
-									<article class="space-y-4 text-gray-600">
-
-										<div class="flex">
-
-											<a
-												href="https://rent-specials-calculator.netlify.app/"
-												target="_blank"
-											>
-												<img class="h-10 pr-2" src="https://img.icons8.com/?size=512&id=60664&format=png"></img>
-
-											</a>
-
-
-											<a
-												href="https://github.com/BobbyWhitacre27/rent_specials_calculator"
-												target="_blank"
-											>
-												<img class="h-10 pl-2 pr-2" src="https://img.icons8.com/?size=512&id=12599&format=png"></img>
-
-											</a>
-
-										</div>
-										<p>
-											This app was created to assist in my current property management role and quickly calculates rent specials for when I meet with clients.
-										</p>
-
-										<p>
-											<ol class="grid grid-cols-2">
-												<li>JavaScript</li>
-												<li>React</li>
-												<li>HTML</li>
-												<li>CSS</li>
-												<li>TailwindCSS</li>
-												<li></li>
-												<li>Front-end on Netlify</li>
-											</ol>
-
-										</p>
-									</article>
-								</div>
-							</div>
-						</div>
-					</section>
-
-
-
-
-					<section>
-						<div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-8 lg:px-8 rounded-xl my-4 bg-gray-100">
-							<div class="max-w-3xl">
-								<a class="text-3xl font-bold underline sm:text-4xl"
-									href="https://prorationcalculator.netlify.app/"
-									target="_blank"
-								>
-									Rent Proration Calculator
-								</a>
-							</div>
-
-							<div class="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
-								<div class="relative h-64 overflow-hidden sm:h-80 lg:h-full">
-									<a
-										href="https://prorationcalculator.netlify.app/"
-										target="_blank"
-									>
-										<img
-											alt="Rentprorationcalculator"
-											src="https://i.ibb.co/THrt68v/Screenshot-2023-04-15-at-12-18-36-AM-2.png"
-											class="absolute inset-0 h-full w-full object-cover"
-										/>
-									</a>
-								</div>
-
-								<div class="">
-									<article class="space-y-4 text-gray-600">
-
-										<div class="flex">
-
-											<a
-												href="https://prorationcalculator.netlify.app/"
-												target="_blank"
-											>
-												<img class="h-10 pr-2" src="https://img.icons8.com/?size=512&id=60664&format=png"></img>
-
-											</a>
-
-
-											<a
-												href="https://github.com/BobbyWhitacre27/proration_calculator"
-												target="_blank"
-											>
-												<img class="h-10 pl-2 pr-2" src="https://img.icons8.com/?size=512&id=12599&format=png"></img>
-
-											</a>
-
-										</div>
-										<p>
-											This app assists in my current property management role to calculate prorated costs for when I put together lease paperwork.
-										</p>
-
-										<p>
-											<ol class="grid grid-cols-2">
-												<li>JavaScript</li>
-												<li>React</li>
-												<li>HTML</li>
-												<li>CSS</li>
-												<li>TailwindCSS</li>
-												<li></li>
-												<li>Front-end on Netlify</li>
-											</ol>
-
-										</p>
-									</article>
-								</div>
-							</div>
-						</div>
-					</section>
-
-
-
-
-
-					{/* <section class="shadow-2xl border border-black rounded-xl bg-white mt-6 sm:mt-16">
-						<div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-16 lg:px-8">
-							<div class="max-w-3xl">
-								<a class="text-4xl font-bold sm:text-5xl italic"
-									href="https://turn-key.netlify.app/" 
-									target='_blank'
-								>
-									TurnKey
-								</a>
-
-							</div>
-							<hr class="border-1 border-black mt-2"></hr>
-							<div class="mt-8 grid grid-cols-1 gap-8 sm:grid-cols-2 sm:gap-16">
-								<div class="relative h-64 overflow-hidden md:h-80 md:h-80">
-									<a href="https://turn-key.netlify.app/" target='_blank'>
-										<img
-											alt="TurnKey"
-											src="https://i.ibb.co/6HtWSF5/Screenshot-2023-06-26-at-2-56-09-PM-2.png"
-											class="absolute inset-0 h-full w-full object-cover rounded-xl opacity-100 hover:opacity-0 border border-black"
-
-										/>
-										<img
-											alt="TurnKey"
-											src="https://i.ibb.co/1K914P2/Screenshot-2023-06-26-at-6-44-39-PM.png"
-											class="absolute inset-0 h-full w-full object-cover rounded-xl opacity-0 hover:opacity-100 border border-black"
-
-										/>
-									</a>
-								</div>
-
-								<div class="lg:py-0">
-									<article class="space-y-4">
-
-									<h1 class="font-bold text-2xl">Full-Stack Developer - June 2023</h1>
-
-										<div class="flex text-white">
-											<a href="https://turn-key.netlify.app/" target='_blank' class="p-2 bg-blue-600 rounded-xl mr-2 hover:bg-blue-400 transition text-2xl">Website 🌐 </a>
-											<a href="https://github.com/BobbyWhitacre27/TurnKey" target='_blank' class="flex p-2 bg-blue-600 rounded-xl ml-2 hover:bg-blue-400 transition text-2xl">Github<img class="h-8 pl-1" src="https://img.icons8.com/?size=512&id=62856&format=png"></img></a>
-
-										</div>
-
-										
-
-										<p>
-											TurnKey is an online real estate website where users can post properties for sale or for rent. Users may also add photos or edit any of their postings and add comments to any other postings on the site.
-										</p>
-										<p>
-											<div class="grid grid-cols-2">
-												<ul>
-													<li>Javascript</li>
-													<li>React</li>
-													<li>Tailwind CSS</li>
-													<li>Express</li>
-													<li>SQL</li>
-												</ul>
-												<ul>
-													<li>PostgreSQL</li>
-													<li>Node.js</li>
-													<li>GitHub</li>
-													<li>Front-end hosted on Netlify</li>
-													<li>Database hosted on Render</li>
-												</ul>
-											</div>
-										</p>
-									</article>
-								</div>
-							</div>
-						</div>
-					</section>
-
-
-
-
-
-					<section class="shadow-2xl border border-black rounded-xl bg-white mt-6 sm:mt-16">
-						<div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-16 lg:px-8">
-							<div class="max-w-3xl">
-								<a class="text-4xl font-bold sm:text-5xl italic"
-									href="https://leasinglad.netlify.app/" 
-									target='_blank'
-								>
-									LeasingLad.
-								</a>
-
-							</div>
-							<hr class="border-1 border-black mt-2"></hr>
-							<div class="mt-8 grid grid-cols-1 gap-8 sm:grid-cols-2 sm:gap-16">
-								<div class="relative h-64 overflow-hidden md:h-80 md:h-80">
-									<a href="https://leasinglad.netlify.app/" target='_blank'>
-										<img
-											alt="Leasing Lad"
-											src="https://i.ibb.co/X5nP2cB/Screenshot-2023-04-25-at-5-33-25-PM-2.png"
-											class="absolute inset-0 h-full w-full object-cover rounded-xl opacity-100 hover:opacity-0 border border-black"
-
-										/>
-										<img
-											alt="LeasingLad"
-											src="https://i.ibb.co/qnjTMRX/Screenshot-2023-06-26-at-6-39-07-PM.png"
-											class="absolute inset-0 h-full w-full object-cover rounded-xl opacity-0 hover:opacity-100 border border-black"
-
-										/>
-									</a>
-								</div>
-
-								<div class="lg:py-0">
-									<article class="space-y-4">
-
-									<h1 class="font-bold text-2xl">Full-Stack Developer - May 2023</h1>
-
-										<div class="flex text-white">
-											<a href="https://leasinglad.netlify.app/" target='_blank' class="p-2 bg-blue-600 rounded-xl mr-2 hover:bg-blue-400 transition text-2xl">Website 🌐 </a>
-											<a href="https://github.com/BobbyWhitacre27/leasing_lad" target='_blank' class="flex p-2 bg-blue-600 rounded-xl ml-2 hover:bg-blue-400 transition text-2xl">Github<img class="h-8 pl-1" src="https://img.icons8.com/?size=512&id=62856&format=png"></img></a>
-											<a href="https://www.youtube.com/watch?v=Nwsp7YmKuJM" target='_blank' class="flex p-2 bg-blue-600 rounded-xl ml-2 hover:bg-blue-400 transition text-2xl">YouTube<img class="h-8 pl-1" src="https://img.icons8.com/?size=512&id=19318&format=png"></img></a>
-										</div>
-
-										<p>
-										Leasing Lad is a property management software that helps leasing agents keep track of their leasing paperwork. I created this to help myself keep track of my paperwork in my current role.
-										</p>
-										<p>
-											<div class="grid grid-cols-2">
-												<ul>
-													<li>Javascript</li>
-													<li>React</li>
-													<li>Tailwind CSS</li>
-													<li>Express</li>
-													<li>SQL</li>
-												</ul>
-												<ul>
-													<li>PostgreSQL</li>
-													<li>Node.js</li>
-													<li>GitHub</li>
-													<li>Front-end hosted on Netlify</li>
-													<li>Database hosted on Render</li>
-												</ul>
-											</div>
-										</p>
-									</article>
-								</div>
-							</div>
-						</div>
-					</section>
-
-
-
-					<section class="shadow-2xl border border-black rounded-xl bg-white mt-6 sm:mt-16">
-						<div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-16 lg:px-8">
-							<div class="max-w-3xl">
-								<a class="text-4xl font-bold sm:text-5xl italic"
-									href="https://leasinglad.netlify.app/" 
-									target='_blank'
-								>
-									RideStack
-								</a>
-
-							</div>
-							<hr class="border-1 border-black mt-2"></hr>
-							<div class="mt-8 grid grid-cols-1 gap-8 sm:grid-cols-2 sm:gap-16">
-								<div class="relative h-64 overflow-hidden md:h-80 md:h-80">
-									<a href="https://leasinglad.netlify.app/" target='_blank'>
-										<img
-											alt="RideStack"
-											src="https://i.ibb.co/526Zbjs/Screenshot-2023-04-14-at-11-59-33-PM-2.png"
-											class="absolute inset-0 h-full w-full object-cover rounded-xl opacity-100 hover:opacity-0 border border-black"
-
-										/>
-										<img
-											alt="RideStack"
-											src="https://i.ibb.co/qnjTMRX/Screenshot-2023-06-26-at-6-39-07-PM.png"
-											class="absolute inset-0 h-full w-full object-cover rounded-xl opacity-0 hover:opacity-100 border border-black"
-
-										/>
-									</a>
-								</div>
-
-								<div class="lg:py-0">
-									<article class="space-y-4">
-
-									<h1 class="font-bold text-2xl">Full-Stack Developer - March 2023</h1>
-
-										<div class="flex text-white">
-											<a href="https://leasinglad.netlify.app/" target='_blank' class="p-2 bg-blue-600 rounded-xl mr-2 hover:bg-blue-400 transition text-2xl">Website 🌐 </a>
-											<a href="https://github.com/BobbyWhitacre27/leasing_lad" target='_blank' class="flex p-2 bg-blue-600 rounded-xl ml-2 hover:bg-blue-400 transition text-2xl">Github<img class="h-8 pl-1" src="https://img.icons8.com/?size=512&id=62856&format=png"></img></a>
-											<a href="https://www.youtube.com/watch?v=Nwsp7YmKuJM" target='_blank' class="flex p-2 bg-blue-600 rounded-xl ml-2 hover:bg-blue-400 transition text-2xl">YouTube<img class="h-8 pl-1" src="https://img.icons8.com/?size=512&id=19318&format=png"></img></a>
-										</div>
-
-										<p>
-										Leasing Lad is a property management software that helps leasing agents keep track of their leasing paperwork. I created this to help myself keep track of my paperwork in my current role.
-										</p>
-										<p>
-											<div class="grid grid-cols-2">
-												<ul>
-													<li>Javascript</li>
-													<li>React</li>
-													<li>Tailwind CSS</li>
-													<li>Express</li>
-													<li>SQL</li>
-												</ul>
-												<ul>
-													<li>PostgreSQL</li>
-													<li>Node.js</li>
-													<li>GitHub</li>
-													<li>Front-end hosted on Netlify</li>
-													<li>Database hosted on Render</li>
-												</ul>
-											</div>
-										</p>
-									</article>
-								</div>
-							</div>
-						</div>
-					</section> */}
-					{/* 
-
-					<div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-2">
-
-
-
-
-
-
-
-						<div
-							class="block text-white bg-gray-600 rounded-xl p-8 shadow-xl transition hover:shadow-stone-50"
-						>
-
-
-							<h2><a href="https://turn-key.netlify.app/" target='_blank' class="flex justify-center text-xl font-bold underline">TurnKey</a></h2>
-							<div class="flex justify-center gap-4">
-								<a href="https://github.com/BobbyWhitacre27/TurnKey" target="_blank" class="flex justify-center mt-1 text-sm  underline">GitHub Link</a>
-							</div>
-							<p class="mt-1 text-sm  text-center">
-								TurnKey is an online real estate website where users can post properties for sale or for rent.
-							</p>
-							<a href="https://turn-key.netlify.app/" target='_blank' class="min-w-fit">
-								<img href="https://turn-key.netlify.app/" target='_blank' class="m-auto mt-4 h-40 rounded" src='https://i.ibb.co/6HtWSF5/Screenshot-2023-06-26-at-2-56-09-PM-2.png'></img>
 							</a>
-						</div>
+						</li>
 
 
 
+						<li>
+							<a
+								href="https://prorationcalculator.netlify.app/"
+								target="_blank"
+								class="relative block overflow-hidden group">
+								<img
+									src="https://images.pexels.com/photos/53621/calculator-calculation-insurance-finance-53621.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+									alt=""
+									class="relative h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px] brightness-75 group-hover:brightness-50"
+								/>
+								<h1 class="absolute text-center top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-5xl font-bold group-hover:hidden">
+									Proration Calculator
+								</h1>
+								<div class="absolute top-1/3 left-1/3 transition duration-500 transform -translate-x-1/3 -translate-y-1/3 text-white invisible group-hover:visible">
+
+									<h1 class="text-3xl font-bold mt-4">Proration Calculator</h1>
+									<p class="text-xl ">Calculates prorated rent costs.</p>
+
+									<div class="flex">
+										<a
+											href="https://prorationcalculator.netlify.app/"
+											target="_blank"
+										>
+											<img class="h-8 pr-2" src={link}></img>
+										</a>
+										<a
+											href="https://github.com/BobbyWhitacre27/proration_calculator"
+											target="_blank"
+										>
+											<img class="h-9 pl-2" src={github}></img>
+										</a>
+									</div>
+
+									<ul class="mt-4">
+										<li>Front-End Project</li>
+										<li>JavaScript</li>
+										<li>React</li>
+										<li>HTML</li>
+										<li>CSS</li>
+										<li>TailwindCSS</li>
+									</ul>
+								</div>
 
 
-						<div
-							class="block rounded-xl text-white bg-gray-600 p-8 shadow-xl transition  hover:shadow-stone-50"
-						>
-
-
-							<h2><a href="https://leasinglad.netlify.app/" target='_blank' class="flex justify-center text-xl font-bold underline">Leasing Lad.</a></h2>
-							<div class="flex justify-center gap-4">
-								<a href="https://www.youtube.com/watch?v=Nwsp7YmKuJM" target="_blank" class="flex justify-center mt-1 text-sm underline">YouTube Demo</a>
-								<a href="https://github.com/BobbyWhitacre27/leasing_lad" target="_blank" class="flex justify-center mt-1 text-sm underline">GitHub Link</a>
-							</div>
-							<p class="mt-1 text-sm text-center">
-								Leasing Lad is a property management software tool I deisgned to help keep leasing paperwork organized.
-							</p>
-							<a href="https://leasinglad.netlify.app/" target='_blank' class="min-w-fit">
-								<img href="https://leasinglad.netlify.app/" target='_blank' class="m-auto mt-4 h-40 rounded" src='https://i.ibb.co/X5nP2cB/Screenshot-2023-04-25-at-5-33-25-PM-2.png'></img>
 							</a>
-						</div>
+						</li>
 
-
-
-						<div
-							class="block rounded-xl text-white bg-gray-600 p-8 shadow-xl hover:shadow-stone-50"
-						>
-
-
-							<h2><a href="https://ride-stack.netlify.app/" target='_blank' class="flex justify-center text-xl font-bold underline">RideStack</a></h2>
-
-							<div class="flex justify-center gap-4">
-								<a href="https://www.youtube.com/watch?v=sx_Pr8Szygk" target="_blank" class="flex justify-center mt-1 text-sm underline">YouTube Demo</a>
-								<a href="https://github.com/rideStack/RideStack" target="_blank" class="flex justify-center mt-1 text-sm  underline">GitHub Link</a>
-							</div>
-
-							<p class="mt-1 text-sm text-center">
-								RideStack is a luxury all-electric vehicle sales website. Users can create accounts and select electric vehicles to purchase.
-							</p>
-							<a href="https://ride-stack.netlify.app/" target='_blank' class="min-w-fit">
-								<img class="m-auto mt-4 h-40 rounded" src='https://i.ibb.co/526Zbjs/Screenshot-2023-04-14-at-11-59-33-PM-2.png'></img>
-							</a>
-						</div>
-
-
-
-
-						<div
-							class="block rounded-xl text-white bg-gray-600 p-8 shadow-xl transition  hover:shadow-stone-50"
-						>
-
-
-							<h2><a href="https://masala-house.netlify.app/" target='_blank' class="flex justify-center text-xl font-bold underline">Masala House</a></h2>
-
-							<div class="flex justify-center gap-4">
-
-								<a href="https://github.com/BobbyWhitacre27/masala_house" target="_blank" class="flex justify-center mt-1 text-sm underline">GitHub Link</a>
-							</div>
-
-							<p class="mt-1 text-sm text-center">
-								Masala House is a made up indian resturant. Created to practice front-end skills with JavaScript and React.
-							</p>
-							<a href="https://masala-house.netlify.app/" target='_blank' class="min-w-fit">
-								<img class="m-auto mt-4 h-40 rounded" src='https://i.ibb.co/7Q7y57v/Masala-House-Web-Page.png'></img>
-							</a>
-						</div>
-
-
-
-
-						<div
-							class="block rounded-xl text-white bg-gray-600 p-8 shadow-xl transition hover:shadow-stone-50"
-						>
-
-
-							<h2><a href="https://rent-specials-calculator.netlify.app/" target='_blank' class="flex justify-center text-xl font-bold underline">Rent Specials Calculator</a></h2>
-							<a href="https://github.com/BobbyWhitacre27/rent_specials_calculator" target="_blank" class="flex justify-center mt-1 text-sm underline">GitHub Link</a>
-
-							<p class="mt-1 text-sm text-center">
-								This app was created to assist in my current property management role and quickly calculates rent specials for when I meet with clients.
-							</p>
-							<a href="https://rent-specials-calculator.netlify.app/" target='_blank' class="min-w-fit">
-								<img class="m-auto mt-4 h-40 rounded" src='https://i.ibb.co/zrFRq23/Screenshot-2023-04-14-at-11-35-37-PM-2.png'></img>
-							</a>
-						</div>
-
-
-
-						<div
-							class="block rounded-xl text-white bg-gray-600 p-8 shadow-xl transition hover:shadow-stone-50"
-						>
-
-
-							<h2><a href="https://prorationcalculator.netlify.app/" target='_blank' class="flex justify-center text-xl font-bold underline">Rent Proration Calculator</a></h2>
-							<a href="https://github.com/BobbyWhitacre27/proration_calculator" target="_blank" class="flex justify-center mt-1 text-sm underline">GitHub Link</a>
-
-							<p class="mt-1 text-sm text-center">
-								This app assists in my current property management role to calculate prorated costs for when I put together lease paperwork.
-							</p>
-							<a href="https://prorationcalculator.netlify.app/" target='_blank' class="min-w-fit">
-								<img class="m-auto mt-4 h-40 rounded" src='https://i.ibb.co/THrt68v/Screenshot-2023-04-15-at-12-18-36-AM-2.png'></img>
-							</a>
-						</div>
-
-
-					</div> */}
-
-
+					</ul>
 				</div>
 			</section>
+
+
+
+
+
+	
+
+
 
 
 			<section id="education" class="bg-white">
