@@ -125,10 +125,10 @@ const App = () => {
 					<div
 						class="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right"
 					>
-						<h2 class="text-3xl font-bold text-gray-900 sm:text-4xl md:text-6xl">BOBBY WHITACRE</h2>
+						<h2 class="text-4xl font-bold text-gray-900 sm:text-4xl md:text-6xl xl:text-8xl">BOBBY WHITACRE</h2>
 
 
-						<p class="mt-4 text-gray-600 sm:text-xl">
+						<p class="mt-4 text-gray-600 sm:text-xl md:text-3xl">
 							A <span class="font-bold text-black">Full-Stack Developer</span>  in the Washington D.C. area.
 						</p>
 
@@ -141,7 +141,7 @@ const App = () => {
 										target="_blank"
 										class="text-white underline"
 									>
-										<img class="h-16" src="https://img.icons8.com/?size=512&id=8808&format=png"></img>
+										<img class="h-12 sm:h-16" src="https://img.icons8.com/?size=512&id=8808&format=png"></img>
 
 									</a>
 								</li>
@@ -153,7 +153,7 @@ const App = () => {
 										target="_blank"
 										class="text-white underline"
 									>
-										<img class="h-16" src="https://img.icons8.com/?size=512&id=12623&format=png"></img>
+										<img class="h-12 sm:h-16" src="https://img.icons8.com/?size=512&id=12623&format=png"></img>
 
 									</a>
 								</li>
@@ -168,7 +168,7 @@ const App = () => {
 										class="text-white underline"
 									>
 
-										<img class="h-16" src="https://img.icons8.com/?size=512&id=12599&format=png"></img>
+										<img class="h-12 sm:h-16" src="https://img.icons8.com/?size=512&id=12599&format=png"></img>
 
 									</a>
 								</li>
@@ -180,7 +180,7 @@ const App = () => {
 				</div>
 
 				<img
-					alt="Student"
+					alt="Computer"
 					src="https://images.pexels.com/photos/2312369/pexels-photo-2312369.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
 					class="h-56 w-full object-cover sm:h-full"
 				/>
@@ -321,7 +321,7 @@ const App = () => {
 										</a>
 									</div>
 
-									<ul class="mt-4">
+									<ul class="mt-2">
 										<li>Full-Stack Project</li>
 										<li>JavaScript</li>
 										<li>React</li>
@@ -379,7 +379,7 @@ const App = () => {
 										</a>
 									</div>
 
-									<ul class="mt-4">
+									<ul class="mt-2">
 										<li>Full-Stack Project</li>
 										<li>JavaScript</li>
 										<li>React</li>
@@ -437,7 +437,7 @@ const App = () => {
 										</a>
 									</div>
 
-									<ul class="mt-4">
+									<ul class="mt-2">
 										<li>Full-Stack Project</li>
 										<li>JavaScript</li>
 										<li>React</li>
@@ -489,7 +489,7 @@ const App = () => {
 										</a>
 									</div>
 
-									<ul class="mt-4">
+									<ul class="mt-2">
 										<li>Front-End Project</li>
 										<li>JavaScript</li>
 										<li>React</li>
@@ -537,7 +537,7 @@ const App = () => {
 										</a>
 									</div>
 
-									<ul class="mt-4">
+									<ul class="mt-2">
 										<li>Front-End Project</li>
 										<li>JavaScript</li>
 										<li>React</li>
@@ -585,7 +585,7 @@ const App = () => {
 										</a>
 									</div>
 
-									<ul class="mt-4">
+									<ul class="mt-2">
 										<li>Front-End Project</li>
 										<li>JavaScript</li>
 										<li>React</li>
@@ -607,7 +607,7 @@ const App = () => {
 
 
 
-	
+
 
 
 
@@ -669,7 +669,7 @@ const App = () => {
 						<div class="grid p-6 bg-gray-100 rounded place-content-center sm:p-8">
 							<div class="max-w-md mx-auto text-center lg:text-left">
 								<header>
-									<h2 class="text-xl font-bold sm:text-5xl">About me</h2>
+									<h2 class="text-xl font-bold sm:text-5xl">About</h2>
 
 									<p class="mt-4">
 										Over 5 years of professional experience in the real estate and construction management industries.
