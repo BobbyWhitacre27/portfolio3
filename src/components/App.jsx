@@ -6,6 +6,8 @@ import bobbyheadshot from '../photos/bobbyheadshot.png'
 import link from '../photos/link.png'
 import github from '../photos/github.png'
 import youtube from '../photos/youtube.png'
+import bobbyanddogs from '../photos/bobbyanddogs.png'
+import bobbyandjasmine from '../photos/bobbyandjasmine.png'
 import '../style/App.css';
 
 const App = () => {
@@ -687,27 +689,27 @@ const App = () => {
 						<div class="lg:col-span-2 lg:py-8">
 							<ul class="grid grid-cols-2 gap-4">
 								<li>
-									<a href="#" class="block group">
+									
 										<img
-											src="https://i.ibb.co/nMRfmK1/IMG-7139.jpg"
+											src={bobbyanddogs}
 											alt=""
 											class="object-cover w-full rounded aspect-square"
 										/>
 
 
-									</a>
+									
 								</li>
 
 								<li>
-									<a href="#" class="block group">
+									
 										<img
-											src="https://i.ibb.co/Rhq7Rzj/IMG-1672.jpg"
+											src={bobbyandjasmine}
 											alt=""
 											class="object-cover w-full rounded aspect-square"
 										/>
 
 
-									</a>
+									
 								</li>
 							</ul>
 						</div>
