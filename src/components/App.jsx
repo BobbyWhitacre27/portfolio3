@@ -618,17 +618,93 @@ const App = () => {
 				<div class="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 md:py-6 lg:px-8">
 
 
-					<div class="mt-0 sm:mt-8">
+					<div class="mt-0 sm:mt-6 mb-4 sm:mb-6">
 
 
 						<div class="mx-auto max-w-xl text-center">
-							<h2 class="text-4xl font-bold sm:text-6xl">
+							<h2 class="text-4xl font-bold sm:text-4xl">
 								Education
 							</h2>
 						</div>
 
 
-						<dl class=" grid-cols-1 gap-4 sm:grid-cols-2">
+
+
+						<article class="flex bg-white shadow-xl md:w-2/3 m-auto transition mt-8">
+
+
+							<div class="hidden sm:block sm:basis-56">
+								<img
+									alt="Code"
+									src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+									class="aspect-square h-full w-full object-cover"
+								/>
+							</div>
+
+							<div class="flex flex-1 flex-col justify-between">
+								<div class="border-s border-gray-900/10 p-4 sm:border-l-transparent my-auto justify- sm:p-6">
+
+
+
+									<div class="flex"><img class="h-14 mb-4" src={'https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Virginia_Tech_Hokies_logo.svg/1280px-Virginia_Tech_Hokies_logo.svg.png'}></img><img class="h-14 mb-4" src={'https://s3.us-east-1.amazonaws.com/fsa2-assets/assets/Logos/fullstack-academy-logo-full-color-rgb.jpg'}></img></div>
+
+									<h3 class="font-bold uppercase text-xl text-gray-900">
+										Virginia Tech Coding Bootcamp
+									</h3>
+
+
+									<p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-700">
+										Powered by Fullstack Academy, Software Engineering Certificate
+									</p>
+									<p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-700">
+										March 2023
+									</p>
+								</div>
+
+
+							</div>
+						</article>
+
+						<article class="flex bg-white shadow-xl md:w-2/3 m-auto transition mt-8">
+
+
+							<div class="hidden sm:block sm:basis-56">
+								<img
+									alt="Construction"
+									src="https://images.pexels.com/photos/2138126/pexels-photo-2138126.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+									class="aspect-square h-full w-full object-cover"
+								/>
+							</div>
+
+							<div class="flex flex-1 flex-col justify-between">
+								<div class="border-s border-gray-900/10 p-4 sm:border-l-transparent my-auto justify- sm:p-6">
+
+
+
+									<div class="flex"><img class="h-14 mb-4" src={'https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Virginia_Tech_Hokies_logo.svg/1280px-Virginia_Tech_Hokies_logo.svg.png'}></img></div>
+
+									<h3 class="font-bold uppercase text-xl text-gray-900">
+										Virginia Tech
+									</h3>
+
+
+									<p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-700">
+										Bachelor of Science Degree, Building Construction
+									</p>
+									<p class="mt-2 line-clamp-3 text-sm/relaxed text-gray-700">
+										December 2017
+									</p>
+								</div>
+
+
+							</div>
+						</article>
+
+
+						
+
+
+						{/* <dl class=" grid-cols-1 gap-4 sm:grid-cols-2">
 
 							<div
 								class="flex flex-col rounded-lg px-4 py-8 text-center"
@@ -659,7 +735,7 @@ const App = () => {
 							</div>
 
 							<div className="logoDiv"><img className='schoolLogos' src={'https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Virginia_Tech_Hokies_logo.svg/1280px-Virginia_Tech_Hokies_logo.svg.png'}></img></div>
-						</dl>
+						</dl> */}
 					</div>
 				</div>
 			</section>
@@ -671,13 +747,13 @@ const App = () => {
 						<div class="grid p-6 bg-gray-100 rounded place-content-center sm:p-8">
 							<div class="max-w-md mx-auto text-center  lg:text-left">
 								<header>
-									<h2 class="text-4xl font-bold sm:text-5xl">About</h2>
+									<h2 class="text-4xl font-bold sm:text-4xl">About</h2>
 
 									<p class="mt-4">
 										Over 5 years of professional experience in the real estate and construction management industries.
 									</p>
 									<p class="mt-4">
-										Began learning to code in 2022. Have always had a nack for building things and now love creating my own apps.
+										Began learning to code in 2022. Have always had a nack for building things and now love creating my own websites.
 									</p>
 									<p class="mt-4">
 										Outside of work you will likely find me working out at my favorite boxing gym, watching Netlix's latest reality show, eating sushi or traveling the world!
@@ -744,7 +820,7 @@ const App = () => {
 
 						<div class="rounded-lg  p-8 lg:col-span-3 lg:p-12">
 
-							<h2 class="text-4xl font-bold text-center mb-4 sm:text-5xl">
+							<h2 class="text-4xl font-bold text-center mb-4 sm:text-4xl">
 								Contact
 							</h2>
 							<p class="text-gray-600 text-center mb-4">Like what you see? Reach out to me, I'd love to connect!</p>
@@ -813,64 +889,64 @@ const App = () => {
 				<div
 					class="relative mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8 lg:pt-16"
 				>
-	
+
 
 					<div class="lg:flex lg:items-end lg:justify-between">
 						<div>
 							<div class="flex justify-center text-teal-600 lg:justify-start">
-							<img
-							src={portfolioheader}
-							class="h-16"
+								<img
+									src={portfolioheader}
+									class="h-16"
 
-						/>
+								/>
 							</div>
-							
+
 							<p
 								class="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500 lg:text-left"
 							>
-								 Webpage created by Bobby Whitacre. Thanks for visitng.
+								Webpage created by Bobby Whitacre. Thanks for visitng.
 							</p>
 
 							<ul class="mt-4 justify-center lg:justify-start flex gap-6 md:gap-8">
-						<li>
-							<a
-								href="https://www.linkedin.com/in/bobby-whitacre/"
-								rel="noreferrer"
-								target="_blank"
-								class="text-white underline"
-							>
-								<img class="h-8" src="https://img.icons8.com/?size=512&id=8808&format=png"></img>
+								<li>
+									<a
+										href="https://www.linkedin.com/in/bobby-whitacre/"
+										rel="noreferrer"
+										target="_blank"
+										class="text-white underline"
+									>
+										<img class="h-8" src="https://img.icons8.com/?size=512&id=8808&format=png"></img>
 
-							</a>
-						</li>
+									</a>
+								</li>
 
-						<li>
-							<a
-								href="mailto: bobby.whitacre27@gmail.com"
-								rel="noreferrer"
-								target="_blank"
-								class="text-white underline"
-							>
-								<img class="h-8" src="https://img.icons8.com/?size=512&id=12623&format=png"></img>
+								<li>
+									<a
+										href="mailto: bobby.whitacre27@gmail.com"
+										rel="noreferrer"
+										target="_blank"
+										class="text-white underline"
+									>
+										<img class="h-8" src="https://img.icons8.com/?size=512&id=12623&format=png"></img>
 
-							</a>
-						</li>
+									</a>
+								</li>
 
 
 
-						<li>
-							<a
-								href="https://github.com/BobbyWhitacre27"
-								rel="noreferrer"
-								target="_blank"
-								class="text-white underline"
-							>
+								<li>
+									<a
+										href="https://github.com/BobbyWhitacre27"
+										rel="noreferrer"
+										target="_blank"
+										class="text-white underline"
+									>
 
-								<img class="h-8" src="https://img.icons8.com/?size=512&id=12599&format=png"></img>
+										<img class="h-8" src="https://img.icons8.com/?size=512&id=12599&format=png"></img>
 
-							</a>
-						</li>
-					</ul>
+									</a>
+								</li>
+							</ul>
 
 
 						</div>
@@ -904,7 +980,7 @@ const App = () => {
 						</ul>
 					</div>
 
-				
+
 				</div>
 			</footer>
 
