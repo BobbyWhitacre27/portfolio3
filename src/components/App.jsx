@@ -756,7 +756,7 @@ const App = () => {
 										Began learning to code in 2022. Have always had a nack for building things and now love creating my own websites.
 									</p>
 									<p class="mt-4">
-										Outside of work you will likely find me working out at my favorite boxing gym, watching Netlix's latest reality show, eating sushi or traveling the world!
+										Outside of work you will likely find me working out at my favorite boxing gym, watching Netflix's latest reality show, eating sushi or traveling the world!
 									</p>
 								</header>
 							</div>
