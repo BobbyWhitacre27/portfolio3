@@ -8,6 +8,7 @@ import github from '../photos/github.png'
 import youtube from '../photos/youtube.png'
 import bobbyanddogs from '../photos/bobbyanddogs.png'
 import bobbyandjasmine from '../photos/bobbyandjasmine.png'
+import wordpress from '../photos/wordpress.png'
 import '../style/App.css';
 
 const App = () => {
@@ -203,7 +204,7 @@ const App = () => {
 							<h2 class="text-3xl font-bold py-8 sm:text-4xl">Technical Skills</h2>
 
 
-							<div class="grid grid-cols-3 md:grid-cols-5 gap-2 justify-evenly">
+							<div class="grid grid-cols-3 md:grid-cols-6 gap-2 justify-evenly">
 
 								<div>
 									<h1 class="text-sm text-gray-500 italic">JavaScript</h1>
@@ -218,6 +219,16 @@ const App = () => {
 								<div>
 									<h1 class="text-sm text-gray-500 italic">Postgres</h1>
 									<img id="postgres" class="p-2 h-20 m-auto" src="https://img.icons8.com/?size=512&id=36440&format=png"></img>
+								</div>
+
+								<div>
+									<h1 class="text-sm text-gray-500 italic">WordPress</h1>
+									<img id="sql" class="p-3 h-20 m-auto" src="https://cdn-icons-png.flaticon.com/128/174/174881.png"></img>
+								</div>
+
+								<div>
+									<h1 class="text-sm text-gray-500 italic">Express</h1>
+									<img id="sql" class="p-3 h-20 m-auto" src="https://ajeetchaulagain.com/static/7cb4af597964b0911fe71cb2f8148d64/87351/express-js.png"></img>
 								</div>
 
 								<div>
@@ -248,11 +259,6 @@ const App = () => {
 								<div>
 									<h1 class="text-sm text-gray-500 italic">GitHub</h1>
 									<img id="GitHub" class="p-2 h-20 m-auto" src="https://img.icons8.com/?size=512&id=12599&format=png"></img>
-								</div>
-
-								<div class="invisible md:hidden">
-									<h1 class="text-sm text-gray-500 italic">VS Code</h1>
-									<img id="VSCode" class="p-2 h-20 m-auto" src="https://img.icons8.com/?size=512&id=9OGIyU8hrxW5&format=png"></img>
 								</div>
 
 								<div>
@@ -602,6 +608,26 @@ const App = () => {
 						</li>
 
 					</ul>
+
+					<li>
+							<a
+								href="https://bobbywhitacre3.wordpress.com/"
+								target="_blank"
+								class="relative block overflow-hidden group m-auto w-fulll">
+								<img
+									src="https://images.pexels.com/photos/4452380/pexels-photo-4452380.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+									alt=""
+									class="relative h-[140px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[160px] brightness-75 group-hover:brightness-50"
+								/>
+								<h1 class="absolute text-center m-auto sm:whitespace-nowrap top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-3xl sm:text-5xl font-bold transition duration-500 group-hover:scale-105">
+								  <div class="flex"><img class="h-14 hidden sm:block m-auto sm:h-12 sm:pr-2" src={wordpress}></img>WordPress Portfolio</div>
+								</h1>
+								
+
+
+							</a>
+						</li>
+
 				</div>
 			</section>
 
