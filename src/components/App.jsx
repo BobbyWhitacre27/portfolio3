@@ -240,7 +240,7 @@ const App = () => {
 									<h1 class="text-sm text-gray-500 italic">Postgres</h1>
 									<img id="postgres" class="p-2 h-20 m-auto" src="https://img.icons8.com/?size=512&id=36440&format=png"></img>
 								</div>
-								
+
 								<div>
 									<h1 class="text-sm text-gray-500 italic">SQL</h1>
 									<img id="sql" class="p-3 h-20 m-auto" src="https://media.istockphoto.com/id/1298834585/vector/sql-icon-major-database-format-vector-icon-illustration.jpg?s=612x612&w=0&k=20&c=GibfLwPw_hjsQMVQUMf-GQIzrp3Bkh_KWOoN5WpOiPI="></img>
@@ -610,7 +610,7 @@ const App = () => {
 
 					</ul>
 
-					<li>
+					<ul class="mt-4">
 							<a
 								href="https://bobbywhitacre3.wordpress.com/"
 								target="_blank"
@@ -627,7 +627,7 @@ const App = () => {
 
 
 							</a>
-						</li>
+						</ul>
 
 				</div>
 			</section>
