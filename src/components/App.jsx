@@ -834,8 +834,8 @@ const App = () => {
 						class="relative flex h-32 items-end bg-gray-900 lg:col-span-5 lg:h-full xl:col-span-6"
 					>
 						<img
-							alt="Night"
-							src="https://images.pexels.com/photos/699459/pexels-photo-699459.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+							alt="Computer"
+							src="https://images.pexels.com/photos/792199/pexels-photo-792199.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 							class="absolute inset-0 h-full w-full object-cover opacity-80"
 						/>
 
