@@ -132,7 +132,7 @@ const App = () => {
 
 
 						<p class="mt-4 text-gray-600 sm:text-xl md:text-3xl">
-							A <span class="font-bold text-black">IT Support Specialist</span>  in the Washington D.C. area.
+							An <span class="font-bold text-black">IT Support Specialist</span>  in the Washington D.C. area.
 						</p>
 
 						<div class="mx-auto max-w-5xl px-4 py- sm:px-6 lg:px-8 text-xl">
