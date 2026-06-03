@@ -98,14 +98,7 @@ const App = () => {
 										</a>
 									</li>
 
-									<li>
-										<a
-											class="text-gray-500 transition hover:text-gray-500/75"
-											href="#contact"
-										>
-											Contact
-										</a>
-									</li>
+								
 
 
 								</ul>
@@ -149,17 +142,6 @@ const App = () => {
 									</a>
 								</li>
 
-								<li>
-									<a
-										href="mailto: bobby.whitacre27@gmail.com"
-										rel="noreferrer"
-										target="_blank"
-										class="text-white underline"
-									>
-										<img class="h-12 sm:h-16" src="https://img.icons8.com/?size=512&id=12623&format=png"></img>
-
-									</a>
-								</li>
 
 
 
@@ -184,15 +166,67 @@ const App = () => {
 
 				<img
 					alt="Computer"
-					src="https://images.pexels.com/photos/2312369/pexels-photo-2312369.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+					src="https://media.licdn.com/dms/image/v2/D4E03AQHruU87lLH9Jw/profile-displayphoto-crop_800_800/B4EZhdIjYPGYAI-/0/1753909180348?e=1782345600&v=beta&t=YLJ73PJI0j2rOg7V6aD2yxIn1Si6sT9CEZfQ9z5k45o"
 					class="h-56 w-full object-cover sm:h-full"
 				/>
 			</section>
 
 
 
+<section id="Certifications">
+				<div
+					class="mx-auto max-w-screen-xl px-4 py-4 sm:py-4 sm:px-6 lg:py-4 lg:px-8"
+				>
+					<div class="text-center">
 
-			<section>
+
+						<div class="lg:py-6">
+
+							<h2 class="text-3xl font-bold py-8 sm:text-4xl">Certifications</h2>
+
+
+							<div class="grid grid-cols-3 md:grid-cols-6 gap-2 justify-evenly">
+
+								<div>
+									<h1 class="text-md text-gray-500 font-bold">AWS Solutions Architect Associate</h1>
+									<h1 class="text-sm text-gray-500 italic">May 2026</h1>
+									<a target="_blank" class="underline text-sm text-blue-500 italic" href="https://www.credly.com/badges/d2e702c9-f3c9-403c-bb37-be87ffc930ff/public_url">Digital Badge</a>
+									<img id="AWS SAA" class="h-20 m-auto" src="https://images.credly.com/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png"></img>
+								</div>
+
+								<div>
+									<h1 class="text-md text-gray-500 font-bold">CompTIA Network+</h1>
+									<h1 class="text-sm text-gray-500 italic">February 2026</h1>
+									<a target="_blank" class="underline text-sm text-blue-500 italic" href="https://www.credly.com/badges/dec564ae-d9e3-45c4-9672-7f5a32da203e/public_url">Digital Badge</a>
+									<img id="Network+" class="h-20 m-auto" src="https://images.credly.com/size/160x160/images/c70ba73e-3c8a-46fa-9d60-4a9af94ad662/blob"></img>
+								</div>
+
+								<div>
+									<h1 class="text-md text-gray-500 font-bold">CompTIA Security+</h1>
+									<h1 class="text-sm text-gray-500 italic">July 2025</h1>
+									<a target="_blank" class="underline text-sm text-blue-500 italic" href="https://www.credly.com/badges/96acc44c-631a-42a6-a616-958b10588374/public_url">Digital Badge</a>
+									<img id="Security+" class="h-20 m-auto" src="https://images.credly.com/size/160x160/images/80d8a06a-c384-42bf-ad36-db81bce5adce/blob"></img>
+								</div>
+
+								
+							</div>
+
+
+
+
+
+
+
+
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+
+
+			<section id="Technical Skills">
 				<div
 					class="mx-auto max-w-screen-xl px-4 py-4 sm:py-4 sm:px-6 lg:py-4 lg:px-8"
 				>
@@ -289,7 +323,7 @@ const App = () => {
 				<div class="max-w-screen-xl px-4 py-6 mx-auto sm:px-6 sm:py-6 lg:px-8">
 					<header>
 						<div class="mx-auto max-w-lg text-center">
-							<h2 class="text-3xl font-bold sm:text-4xl">Recent Work</h2>
+							<h2 class="text-3xl font-bold sm:text-4xl">Web Development Projects</h2>
 						</div>
 					</header>
 
@@ -828,87 +862,7 @@ const App = () => {
 
 
 
-			<section id="contact" class="bg-gray-100 mt-16">
-				<div class="lg:grid lg:min-h-1/2 lg:grid-cols-12">
-					<section
-						class="relative flex h-32 items-end bg-gray-900 lg:col-span-5 lg:h-full xl:col-span-6"
-					>
-						<img
-							alt="Computer"
-							src="https://images.pexels.com/photos/792199/pexels-photo-792199.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-							class="absolute inset-0 h-full w-full object-cover opacity-80"
-						/>
 
-					</section>
-
-					<main
-						class="flex items-center justify-center px-8 py-8 sm:px-12 lg:col-span-7 lg:px-16 lg:py-12 xl:col-span-6"
-					>
-
-						<div class="rounded-lg  p-8 lg:col-span-3 lg:p-12">
-
-							<h2 class="text-4xl font-bold text-center mb-4 sm:text-4xl">
-								Contact
-							</h2>
-							<p class="text-gray-600 text-center mb-4">Like what you see? Reach out to me, I'd love to connect!</p>
-
-							<form action="" class="space-y-4">
-								<div>
-									<label class="sr-only" for="name">Name</label>
-									<input
-										class="w-full rounded-lg border-gray-200 bg-white shadow-sm p-3 text-sm"
-										placeholder="Name"
-										type="text"
-										id="name"
-										onChange={handleName}
-									/>
-								</div>
-
-								<div class="grid grid-cols-1 gap-4">
-									<div>
-										<label class="sr-only" for="email">Email</label>
-										<input
-											class="w-full rounded-lg border-gray-200 bg-white shadow-sm p-3 text-sm"
-											placeholder="Email address"
-											type="email"
-											id="email"
-											onChange={handleEmail}
-										/>
-									</div>
-
-
-								</div>
-
-
-
-								<div>
-									<label class="sr-only" for="message">Message</label>
-
-									<textarea
-										class="w-full rounded-lg border-gray-200 bg-white shadow-sm p-3 text-sm"
-										placeholder="Message"
-										rows="8"
-										id="message"
-										onChange={handleMessage}
-									></textarea>
-								</div>
-
-								<div class="mt-4 text-center">
-									<button
-										type="submit"
-										class="inline-block w-full rounded-lg bg-black px-5 py-3 font-medium text-white sm:w-auto"
-										onClick={handleSubmit}
-									>
-										Send
-									</button>
-								</div>
-							</form>
-
-						</div>
-
-					</main>
-				</div>
-			</section>
 
 
 
@@ -947,17 +901,7 @@ const App = () => {
 									</a>
 								</li>
 
-								<li>
-									<a
-										href="mailto: bobby.whitacre27@gmail.com"
-										rel="noreferrer"
-										target="_blank"
-										class="text-white underline"
-									>
-										<img class="h-8" src="https://img.icons8.com/?size=512&id=12623&format=png"></img>
-
-									</a>
-								</li>
+								
 
 
 
@@ -999,11 +943,7 @@ const App = () => {
 								</a>
 							</li>
 
-							<li>
-								<a class="text-gray-700 transition hover:text-gray-700/75" href="#contact">
-									Contact
-								</a>
-							</li>
+						
 						</ul>
 					</div>
 
