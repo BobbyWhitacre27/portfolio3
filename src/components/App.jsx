@@ -5,11 +5,15 @@ import bobbyimage from '../photos/bobbyimage.jpg'
 import bobbyheadshot from '../photos/bobbyheadshot.png'
 import link from '../photos/link.png'
 import github from '../photos/github.png'
+import Logo from '../photos/Logo.png'
 import youtube from '../photos/youtube.png'
-import bobbyanddogs from '../photos/bobbyanddogs.png'
+import grandcanyon from '../photos/GrandCanyon.jpg'
 import bobbyandjasmine from '../photos/bobbyandjasmine.png'
 import wordpress from '../photos/wordpress.png'
+import portrait from '../photos/Portrait.jpg'
 import '../style/App.css';
+
+
 
 const App = () => {
 	const [name, setName] = useState('');
@@ -60,8 +64,97 @@ const App = () => {
 
 
 
+<header class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-gray-200">
+  <div class="mx-auto max-w-7xl px-6">
+    <div class="flex h-16 items-center justify-between">
 
-			<header class="bg-white">
+
+  <a href="#" class="flex items-center gap-3">
+    <img
+      class="h-10 w-auto"
+      src={Logo}
+      alt="Bobby Whitacre"
+    />
+
+    <div class="hidden sm:block">
+      <p class="font-bold text-gray-900">
+        Bobby Whitacre
+      </p>
+
+      <p class="text-xs text-gray-500">
+        AWS Certified • IT Support Specialist
+      </p>
+    </div>
+  </a>
+
+  
+  <nav aria-label="Main Navigation">
+    <ul class="flex items-center gap-6 md:gap-8">
+
+
+
+      <li>
+        <a
+          href="#certifications"
+          class="text-gray-600 hover:text-blue-600 transition"
+        >
+          Certifications
+        </a>
+      </li>
+
+      <li>
+        <a
+          href="#skills"
+          class="text-gray-600 hover:text-blue-600 transition"
+        >
+          Skills
+        </a>
+      </li>
+
+      <li>
+        <a
+          href="#projects"
+          class="text-gray-600 hover:text-blue-600 transition"
+        >
+          Projects
+        </a>
+      </li>
+
+
+      <li>
+        <a
+          href="#education"
+          class="text-gray-600 hover:text-blue-600 transition"
+        >
+          Education
+        </a>
+      </li>
+
+      <li>
+        <a
+          href="#about"
+          class="text-gray-600 hover:text-blue-600 transition"
+        >
+          About
+        </a>
+      </li>
+
+
+    </ul>
+  </nav>
+
+</div>
+
+
+  </div>
+</header>
+
+
+
+
+
+
+			{/* <header class="bg-white">
 				<div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
 					<div class="flex h-16 items-center justify-center sm:justify-between">
 						<div class="hidden flex-1 sm:flex md:items-center md:gap-12">
@@ -110,13 +203,77 @@ const App = () => {
 						</div>
 					</div>
 				</div>
-			</header>
+			</header> */}
+
+<section class="overflow-hidden bg-gray-100">
+  <div class="max-w-7xl mx-auto px-6 py-16 lg:py-24">
+    <div class="grid lg:grid-cols-2 gap-12 items-center">
+
+  
+  <div class="text-center lg:text-left">
+
+    <p class="text-blue-600 font-semibold mb-2">
+      AWS SAA Certified • Security+ • Network+
+    </p>
+
+    <h1 class="text-5xl md:text-6xl font-bold text-gray-900">
+      Bobby Whitacre
+    </h1>
+
+    <h2 class="mt-4 text-2xl md:text-3xl text-gray-700">
+      IT Support Specialist & Aspiring Cloud Professional
+    </h2>
+
+    <p class="mt-6 text-lg text-gray-600 max-w-xl">
+      IT professional with experience supporting enterprise users,
+      Microsoft 365 environments, endpoint devices, and cloud technologies.
+      AWS Solutions Architect Associate certified with a passion for
+      infrastructure, automation, and continuous learning.
+    </p>
+
+    <div class="mt-8 flex flex-wrap justify-center lg:justify-start gap-4">
+
+      <a
+        href="https://www.linkedin.com/in/bobby-whitacre/"
+        target="_blank"
+        rel="noreferrer"
+        class="px-5 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
+      >
+        LinkedIn
+      </a>
+
+      <a
+        href="https://github.com/BobbyWhitacre27"
+        target="_blank"
+        rel="noreferrer"
+        class="px-5 py-3 border border-gray-300 rounded-lg hover:bg-gray-50 transition"
+      >
+        GitHub
+      </a>
+
+    </div>
+
+  </div>
+
+  
+  <div class="flex justify-center">
+    <img
+      src={portrait}
+      alt="Bobby Whitacre"
+      class="w-64 h-64 md:w-80 md:h-80 rounded-full object-cover shadow-xl"
+    />
+  </div>
+
+</div>
+
+
+  </div>
+</section>
 
 
 
 
-
-			<section class="overflow-hidden bg-gray-100 sm:grid sm:grid-cols-2">
+			{/* <section class="overflow-hidden bg-gray-100 sm:grid sm:grid-cols-2">
 				<div class="p-8 md:p-12 m-auto lg:px-16 lg:py-24">
 					<div
 						class="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right"
@@ -164,16 +321,114 @@ const App = () => {
 					</div>
 				</div>
 
-				<img
-					alt="Computer"
-					src="https://media.licdn.com/dms/image/v2/D4E03AQHruU87lLH9Jw/profile-displayphoto-crop_800_800/B4EZhdIjYPGYAI-/0/1753909180348?e=1782345600&v=beta&t=YLJ73PJI0j2rOg7V6aD2yxIn1Si6sT9CEZfQ9z5k45o"
-					class="h-56 w-full object-cover sm:h-full"
-				/>
-			</section>
+<div class="max-w-md mx-auto">
+  <img
+    alt="Computer"
+	src={portrait}
+    class="w-full h-auto object-cover"
+  />
+</div>
+
+
+		
+			</section> */}
+
+
+<section id="certifications" class="py-16">
+  <div class="max-w-5xl mx-auto px-6">
+    <h2 class="text-3xl font-bold text-center mb-10">
+      Certifications
+    </h2>
+
+
+<div class="grid md:grid-cols-3 gap-6">
+
+
+  <div class="bg-white rounded-xl shadow-md p-6 text-center hover:shadow-lg transition">
+    <img
+      class="h-28 mx-auto mb-4"
+      src="https://images.credly.com/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png"
+      alt="AWS Solutions Architect Associate"
+    />
+
+    <h3 class="font-semibold text-lg">
+      AWS Solutions Architect Associate
+    </h3>
+
+    <p class="text-sm text-gray-500 mb-3">
+      Earned May 2026
+    </p>
+
+    <a
+      href="https://www.credly.com/badges/d2e702c9-f3c9-403c-bb37-be87ffc930ff/public_url"
+      target="_blank"
+      class="text-blue-600 hover:underline"
+    >
+      View Credential
+    </a>
+  </div>
+
+  
+  <div class="bg-white rounded-xl shadow-md p-6 text-center hover:shadow-lg transition">
+    <img
+      class="h-28 mx-auto mb-4"
+      src="https://images.credly.com/size/160x160/images/c70ba73e-3c8a-46fa-9d60-4a9af94ad662/blob"
+      alt="CompTIA Network+"
+    />
+
+    <h3 class="font-semibold text-lg">
+      CompTIA Network+
+    </h3>
+
+    <p class="text-sm text-gray-500 mb-3">
+      Earned February 2026
+    </p>
+
+    <a
+      href="https://www.credly.com/badges/dec564ae-d9e3-45c4-9672-7f5a32da203e/public_url"
+      target="_blank"
+      class="text-blue-600 hover:underline"
+    >
+      View Credential
+    </a>
+  </div>
+
+
+  <div class="bg-white rounded-xl shadow-md p-6 text-center hover:shadow-lg transition">
+    <img
+      class="h-28 mx-auto mb-4"
+      src="https://images.credly.com/size/160x160/images/80d8a06a-c384-42bf-ad36-db81bce5adce/blob"
+      alt="CompTIA Security+"
+    />
+
+    <h3 class="font-semibold text-lg">
+      CompTIA Security+
+    </h3>
+
+    <p class="text-sm text-gray-500 mb-3">
+      Earned July 2025
+    </p>
+
+    <a
+      href="https://www.credly.com/badges/96acc44c-631a-42a6-a616-958b10588374/public_url"
+      target="_blank"
+      class="text-blue-600 hover:underline"
+    >
+      View Credential
+    </a>
+  </div>
+
+</div>
+
+
+  </div>
+</section>
 
 
 
-<section id="Certifications">
+
+
+{/* <section id="Certifications">
 				<div
 					class="mx-auto max-w-screen-xl px-4 py-4 sm:py-4 sm:px-6 lg:py-4 lg:px-8"
 				>
@@ -185,7 +440,7 @@ const App = () => {
 							<h2 class="text-3xl font-bold py-8 sm:text-4xl">Certifications</h2>
 
 
-							<div class="grid grid-cols-3 md:grid-cols-6 gap-2 justify-evenly">
+							<div class="grid grid-cols-3 md:grid-cols-3 gap-2 justify-evenly">
 
 								<div>
 									<h1 class="text-md text-gray-500 font-bold">AWS Solutions Architect Associate</h1>
@@ -221,12 +476,84 @@ const App = () => {
 						</div>
 					</div>
 				</div>
-			</section>
+			</section> */}
 
 
 
 
-			<section id="Technical Skills">
+<section id="skills" class="py-16">
+  <div class="max-w-5xl mx-auto px-6">
+    <h2 class="text-3xl font-bold text-center mb-10">
+      Technical Skills
+    </h2>
+
+
+<div class="grid md:grid-cols-2 gap-8">
+
+  
+  <div class="bg-white rounded-lg shadow-md p-6">
+    <h3 class="text-xl font-semibold mb-4">
+      Cloud & Infrastructure
+    </h3>
+    <div class="flex flex-wrap gap-2">
+      <span class="px-3 py-1 bg-gray-100 rounded-full">AWS EC2</span>
+      <span class="px-3 py-1 bg-gray-100 rounded-full">AWS S3</span>
+      <span class="px-3 py-1 bg-gray-100 rounded-full">AWS IAM</span>
+      <span class="px-3 py-1 bg-gray-100 rounded-full">AWS VPC</span>
+      <span class="px-3 py-1 bg-gray-100 rounded-full">AWS CloudWatch</span>
+    </div>
+  </div>
+
+ 
+  <div class="bg-white rounded-lg shadow-md p-6">
+    <h3 class="text-xl font-semibold mb-4">
+      Endpoint Support
+    </h3>
+    <div class="flex flex-wrap gap-2">
+      <span class="px-3 py-1 bg-gray-100 rounded-full">Windows 11</span>
+      <span class="px-3 py-1 bg-gray-100 rounded-full">macOS</span>
+      <span class="px-3 py-1 bg-gray-100 rounded-full">VDI</span>
+      <span class="px-3 py-1 bg-gray-100 rounded-full">Endpoint Support</span>
+    </div>
+  </div>
+
+
+  <div class="bg-white rounded-lg shadow-md p-6">
+    <h3 class="text-xl font-semibold mb-4">
+      Identity & Collaboration
+    </h3>
+    <div class="flex flex-wrap gap-2">
+      <span class="px-3 py-1 bg-gray-100 rounded-full">Active Directory</span>
+      <span class="px-3 py-1 bg-gray-100 rounded-full">Microsoft 365</span>
+      <span class="px-3 py-1 bg-gray-100 rounded-full">Microsoft Teams</span>
+      <span class="px-3 py-1 bg-gray-100 rounded-full">MFA</span>
+    </div>
+  </div>
+
+  
+  <div class="bg-white rounded-lg shadow-md p-6">
+    <h3 class="text-xl font-semibold mb-4">
+      Networking & Automation
+    </h3>
+    <div class="flex flex-wrap gap-2">
+      <span class="px-3 py-1 bg-gray-100 rounded-full">VPN Troubleshooting</span>
+      <span class="px-3 py-1 bg-gray-100 rounded-full">Networking Fundamentals</span>
+      <span class="px-3 py-1 bg-gray-100 rounded-full">Power Apps</span>
+      <span class="px-3 py-1 bg-gray-100 rounded-full">Power Automate</span>
+      <span class="px-3 py-1 bg-gray-100 rounded-full">Service Desk Operations</span>
+    </div>
+  </div>
+
+</div>
+
+
+  </div>
+</section>
+
+
+
+
+			{/* <section id="Technical Skills">
 				<div
 					class="mx-auto max-w-screen-xl px-4 py-4 sm:py-4 sm:px-6 lg:py-4 lg:px-8"
 				>
@@ -313,7 +640,7 @@ const App = () => {
 						</div>
 					</div>
 				</div>
-			</section>
+			</section> */}
 
 
 
@@ -323,7 +650,10 @@ const App = () => {
 				<div class="max-w-screen-xl px-4 py-6 mx-auto sm:px-6 sm:py-6 lg:px-8">
 					<header>
 						<div class="mx-auto max-w-lg text-center">
-							<h2 class="text-3xl font-bold sm:text-4xl">Web Development Projects</h2>
+							<h2 class="text-3xl font-bold text-center mb-10">
+      Web Development Projects
+    </h2>
+							
 						</div>
 					</header>
 
@@ -670,12 +1000,97 @@ const App = () => {
 
 
 
+<section id="education" class="bg-white">
+  <div class="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8">
+
+    <div class="text-center mb-8">
+      <h2 class="text-4xl font-bold">Education</h2>
+    </div>
+
+   
+    <article class="flex bg-white shadow-xl md:w-2/3 mx-auto mt-8">
+      
+      <div class="hidden sm:block sm:basis-56">
+        <img
+          src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          alt="Coding"
+          class="aspect-square h-full w-full object-cover"
+        />
+      </div>
+
+      <div class="flex flex-1 flex-col justify-center p-6 border-l border-gray-900/10 sm:border-l-transparent">
+
+        <div class="flex gap-3 mb-4">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Virginia_Tech_Hokies_logo.svg/1280px-Virginia_Tech_Hokies_logo.svg.png"
+            class="h-12"
+            alt="Virginia Tech"
+          />
+          <img
+            src="https://s3.us-east-1.amazonaws.com/fsa2-assets/assets/Logos/fullstack-academy-logo-full-color-rgb.jpg"
+            class="h-12"
+            alt="Fullstack Academy"
+          />
+        </div>
+
+        <h3 class="font-bold uppercase text-xl text-gray-900">
+          Virginia Tech Coding Bootcamp
+        </h3>
+
+        <p class="mt-2 text-sm text-gray-700">
+          Software Engineering Certificate — Powered by Fullstack Academy
+        </p>
+
+        <p class="mt-2 text-sm text-gray-500">
+          March 2023
+        </p>
+
+      </div>
+    </article>
+
+    
+    <article class="flex bg-white shadow-xl md:w-2/3 mx-auto mt-8">
+
+      <div class="hidden sm:block sm:basis-56">
+        <img
+          src="https://images.pexels.com/photos/2138126/pexels-photo-2138126.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          alt="Construction"
+          class="aspect-square h-full w-full object-cover"
+        />
+      </div>
+
+      <div class="flex flex-1 flex-col justify-center p-6 border-l border-gray-900/10 sm:border-l-transparent">
+
+        <div class="flex mb-4">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Virginia_Tech_Hokies_logo.svg/1280px-Virginia_Tech_Hokies_logo.svg.png"
+            class="h-12"
+            alt="Virginia Tech"
+          />
+        </div>
+
+        <h3 class="font-bold uppercase text-xl text-gray-900">
+          Virginia Tech
+        </h3>
+
+        <p class="mt-2 text-sm text-gray-700">
+          Bachelor of Science Degree, Building Construction
+        </p>
+
+        <p class="mt-2 text-sm text-gray-500">
+          December 2017
+        </p>
+
+      </div>
+    </article>
+
+  </div>
+</section>
 
 
 
 
-
-			<section id="education" class="bg-white">
+			{/* <section id="education" class="bg-white">
 				<div class="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 md:py-6 lg:px-8">
 
 
@@ -765,41 +1180,10 @@ const App = () => {
 						
 
 
-						{/* <dl class=" grid-cols-1 gap-4 sm:grid-cols-2">
-
-							<div
-								class="flex flex-col rounded-lg px-4 py-8 text-center"
-							>
-								<dt class="order-last text-2xl font-medium ">
-									Powered by FullStack Academy
-								</dt>
-								<dt class="order-last text-lg font-medium text-gray-600">
-									Software Engineering Certificate - March 2023
-								</dt>
-
-								<dd class="text-4xl font-extrabold  md:text-4xl">Virginia Tech Coding Bootcamp</dd>
-							</div>
-
-							<div className="logoDiv"><img className='schoolLogos' src={'https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Virginia_Tech_Hokies_logo.svg/1280px-Virginia_Tech_Hokies_logo.svg.png'}></img><img className='schoolLogos' id='fullstackLogo' src={'https://s3.us-east-1.amazonaws.com/fsa2-assets/assets/Logos/fullstack-academy-logo-full-color-rgb.jpg'}></img></div>
-
-							<div
-								class="flex flex-col rounded-lg  px-4 py-8 text-center"
-							>
-								<dt class="order-last text-lg font-medium text-gray-600">
-									Bachelor of Science, Construction Management - December 2017
-								</dt>
-
-
-								<dd class="text-4xl font-extrabold md:text-4xl">Virginia Tech</dd>
-
-
-							</div>
-
-							<div className="logoDiv"><img className='schoolLogos' src={'https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Virginia_Tech_Hokies_logo.svg/1280px-Virginia_Tech_Hokies_logo.svg.png'}></img></div>
-						</dl> */}
+		
 					</div>
 				</div>
-			</section>
+			</section> */}
 
 
 			<section id="about">
@@ -811,13 +1195,13 @@ const App = () => {
 									<h2 class="text-4xl font-bold sm:text-4xl">About</h2>
 
 									<p class="mt-4">
-										Over 5 years of professional experience in the real estate and construction management industries.
+										IT professional with 2+ years of experience in enterprise desktop support. Passionate about troubleshooting, problem solving, and learning new technologies.
 									</p>
 									<p class="mt-4">
-										Began learning to code in 2022. Have always had a nack for building things and now love creating my own websites.
+										Certifications include AWS Certified Solutions Architect – Associate, CompTIA Security+, and CompTIA Network+.
 									</p>
 									<p class="mt-4">
-										Outside of work you will likely find me working out at my favorite boxing gym, watching Netflix's latest reality show, eating sushi or traveling the world!
+											Career changer with 8+ years of professional experience spanning IT support, property management, and construction project management, bringing strong communication, operational, and customer-facing skills to technical environments.
 									</p>
 								</header>
 							</div>
@@ -828,7 +1212,7 @@ const App = () => {
 								<li>
 
 									<img
-										src={bobbyanddogs}
+										src={grandcanyon}
 										alt=""
 										class="object-cover w-full rounded aspect-square"
 									/>
@@ -876,7 +1260,7 @@ const App = () => {
 						<div>
 							<div class="flex justify-center text-teal-600 lg:justify-start">
 								<img
-									src={portfolioheader}
+									src={Logo}
 									class="h-16"
 
 								/>
@@ -888,63 +1272,12 @@ const App = () => {
 								Webpage created by Bobby Whitacre. Thanks for visitng.
 							</p>
 
-							<ul class="mt-4 justify-center lg:justify-start flex gap-6 md:gap-8">
-								<li>
-									<a
-										href="https://www.linkedin.com/in/bobby-whitacre/"
-										rel="noreferrer"
-										target="_blank"
-										class="text-white underline"
-									>
-										<img class="h-8" src="https://img.icons8.com/?size=512&id=8808&format=png"></img>
-
-									</a>
-								</li>
-
-								
-
-
-
-								<li>
-									<a
-										href="https://github.com/BobbyWhitacre27"
-										rel="noreferrer"
-										target="_blank"
-										class="text-white underline"
-									>
-
-										<img class="h-8" src="https://img.icons8.com/?size=512&id=12599&format=png"></img>
-
-									</a>
-								</li>
-							</ul>
+						
 
 
 						</div>
 
-						<ul
-							class="mt-12 mb-8 flex flex-wrap justify-center gap-6 md:gap-8 lg:mt-0 lg:justify-end lg:gap-12"
-						>
-							<li>
-								<a class="text-gray-700 transition hover:text-gray-700/75" href="#projects">
-									Projects
-								</a>
-							</li>
-
-							<li>
-								<a class="text-gray-700 transition hover:text-gray-700/75" href="#education">
-									Education
-								</a>
-							</li>
-
-							<li>
-								<a class="text-gray-700 transition hover:text-gray-700/75" href="#about">
-									About
-								</a>
-							</li>
-
 						
-						</ul>
 					</div>
 
 
