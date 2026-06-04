@@ -8,6 +8,7 @@ import github from '../photos/github.png'
 import Logo from '../photos/Logo.png'
 import youtube from '../photos/youtube.png'
 import grandcanyon from '../photos/GrandCanyon.jpg'
+import Bailey from '../photos/Bailey.jpg'
 import bobbyandjasmine from '../photos/bobbyandjasmine.png'
 import wordpress from '../photos/wordpress.png'
 import portrait from '../photos/Portrait.jpg'
@@ -1198,13 +1199,13 @@ const App = () => {
 									<h2 class="text-4xl font-bold sm:text-4xl">About</h2>
 
 									<p class="mt-4">
-										IT professional with 2+ years of experience in enterprise desktop support. Passionate about troubleshooting, problem solving, and learning new technologies.
+										IT professional who is passionate about troubleshooting, problem solving, and learning new technologies.
 									</p>
 									<p class="mt-4">
 										Certifications include AWS Certified Solutions Architect – Associate, CompTIA Security+, and CompTIA Network+.
 									</p>
 									<p class="mt-4">
-											Career changer with 8+ years of professional experience spanning IT support, property management, and construction project management, bringing strong communication, operational, and customer-facing skills to technical environments.
+											Outside of work you would find me spending time with my wife, our dog and our cat. We enjoy travelling, DIY projects, exploring nature and walks!
 									</p>
 								</header>
 							</div>
@@ -1227,7 +1228,7 @@ const App = () => {
 								<li>
 
 									<img
-										src={bobbyandjasmine}
+										src={Bailey}
 										alt=""
 										class="object-cover w-full rounded aspect-square"
 									/>
