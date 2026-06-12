@@ -117,7 +117,7 @@ const App = () => {
 
       <li>
         <a
-          href="#projects"
+          href="#aws"
           class="text-gray-600 hover:text-blue-600 transition"
         >
           Projects
@@ -432,6 +432,11 @@ const App = () => {
 
 
 
+
+
+
+
+
 {/* <section id="Certifications">
 				<div
 					class="mx-auto max-w-screen-xl px-4 py-4 sm:py-4 sm:px-6 lg:py-4 lg:px-8"
@@ -553,6 +558,87 @@ const App = () => {
 
   </div>
 </section>
+
+
+<section id="aws" class="py-16 bg-white">
+  <div class="max-w-5xl mx-auto px-6">
+
+    <h2 class="text-3xl font-bold text-center mb-10">
+      AWS Projects
+    </h2>
+
+    <div class="grid md:grid-cols-2 gap-6">
+
+      {/* Main Portfolio */}
+      <div class="bg-white rounded-xl shadow-md p-6 text-center hover:shadow-lg transition">
+        
+        <div class="flex justify-center mb-4">
+          <img
+            src={Logo}
+            alt="AWS Icon"
+            class="h-20"
+          />
+        </div>
+
+        <h3 class="font-semibold text-lg">
+          bobbywhitacre.com
+        </h3>
+
+        <p class="text-sm text-gray-500 mb-4">
+          AWS-hosted portfolio website deployed using cloud infrastructure
+        </p>
+
+        <a
+          href="https://bobbywhitacre.com"
+          target="_blank"
+          rel="noreferrer"
+          class="text-blue-600 hover:underline text-sm"
+        >
+          Visit Site
+        </a>
+
+        <p class="text-xs text-gray-400 mt-3">
+          Route 53 • AWS Amplify • Github •  DNS Management
+        </p>
+      </div>
+
+      {/* Linux Server Project */}
+      <div class="bg-white rounded-xl shadow-md p-6 text-center hover:shadow-lg transition">
+
+        <div class="flex justify-center mb-4">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/6124/6124995.png"
+            alt="Linux Server"
+            class="h-20"
+          />
+        </div>
+
+        <h3 class="font-semibold text-lg">
+          linux.bobbywhitacre.com
+        </h3>
+
+        <p class="text-sm text-gray-500 mb-4">
+          EC2 Linux server configured with Nginx and shell scripting
+        </p>
+
+        <a
+          href="https://linux.bobbywhitacre.com"
+          target="_blank"
+          rel="noreferrer"
+          class="text-blue-600 hover:underline text-sm"
+        >
+          Visit Server
+        </a>
+
+        <p class="text-xs text-gray-400 mt-3">
+          EC2 • Linux Administration • Nginx • Bash Scripting
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 
 
 
